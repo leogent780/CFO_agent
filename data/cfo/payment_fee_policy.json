@@ -1,0 +1,7 @@
+{
+  "default_fee_rate": 0.035,
+  "vat_included_in_fee": true,
+  "note": "결제액의 3.5%, VAT포함 금액을 /1.1 하여 순액 반영. 결제수단별로 다르면 이후 세분화 필요.",
+  "by_payment_method": {},
+  "effective_from": "2026-09-02"
+}

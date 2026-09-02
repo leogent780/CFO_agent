@@ -1,0 +1,7 @@
+{
+  "shipping_cost_per_order": 3500,
+  "vat_included_in_cost": true,
+  "vat_deductible": true,
+  "note": "택배비, VAT포함 금액을 /1.1 하여 순액 반영",
+  "effective_from": "2026-09-02"
+}

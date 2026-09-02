@@ -1,0 +1,16 @@
+{
+  "_설명": "월 고정비 항목입니다. amount 필드에 실제 금액(원)을 채워넣어 주세요. 해당 없는 항목은 0으로 두면 됩니다. 항목이 더 필요하면 같은 형식으로 추가하면 됩니다.",
+  "month": "2026-09",
+  "items": [
+    { "category": "인건비", "description": "본인 포함 인건비/급여", "amount": 0 },
+    { "category": "툴 구독료 - 카페24 PRO", "description": "", "amount": 0 },
+    { "category": "툴 구독료 - 카페24 애널리틱스", "description": "", "amount": 0 },
+    { "category": "툴 구독료 - 기타", "description": "", "amount": 0 },
+    { "category": "창고/사무실 임대료", "description": "", "amount": 0 },
+    { "category": "세무기장료", "description": "", "amount": 0 },
+    { "category": "보험료", "description": "", "amount": 0 },
+    { "category": "기타", "description": "", "amount": 0 }
+  ],
+  "total_monthly_fixed_cost": 0,
+  "note": "total_monthly_fixed_cost는 items의 amount 합계와 항상 일치시켜 주세요 (제가 계산할 때도 이 필드를 검산합니다)."
+}

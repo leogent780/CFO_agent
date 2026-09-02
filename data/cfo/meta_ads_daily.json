@@ -1,0 +1,17 @@
+{
+  "_설명": "다른 세션의 메타 데이터분석 agent가 매일 이 파일에 그날 데이터를 추가/갱신해주면 됩니다. total_spend는 VAT 미포함 실제 광고비입니다. campaigns는 있으면 좋고 없어도 됩니다(캠페인별 분해는 선택사항).",
+  "_스키마_예시": {
+    "date": "YYYY-MM-DD",
+    "total_spend": "숫자, VAT 미포함",
+    "campaigns": [
+      { "name": "캠페인명", "spend": "숫자", "purchases": "숫자, 전환구매건수", "revenue": "숫자, 귀속매출" }
+    ]
+  },
+  "records": [
+    {
+      "date": "2026-09-01",
+      "total_spend": 1437608,
+      "campaigns": []
+    }
+  ]
+}

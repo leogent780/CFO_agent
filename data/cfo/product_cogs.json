@@ -1,0 +1,33 @@
+{
+  "product": "인프팅프로 2.0 세트",
+  "components": [
+    {
+      "name": "본품",
+      "unit_cost": 12111,
+      "vat_included_in_cost": false,
+      "vat_deductible": false,
+      "reason": "중국 직수입 — 매입세액공제 대상 아님, 원가 전액 차감",
+      "supplier_country": "중국"
+    },
+    {
+      "name": "괄사",
+      "unit_cost": 990,
+      "vat_included_in_cost": true,
+      "vat_deductible": true,
+      "reason": "국내 매입 — VAT 포함 금액을 /1.1 하여 순원가로 반영",
+      "supplier_country": "국내"
+    },
+    {
+      "name": "마사지젤",
+      "unit_cost": 1700,
+      "vat_included_in_cost": true,
+      "vat_deductible": true,
+      "reason": "국내 매입 — VAT 포함 금액을 /1.1 하여 순원가로 반영",
+      "supplier_country": "국내"
+    }
+  ],
+  "raw_total_cost_pre_vat_adjustment": 14801,
+  "effective_from": "2026-09-02",
+  "confirmed_by_user": true,
+  "note": "카페24 상품등록 페이지의 '공급가' 필드(25,000원)는 이 값과 다름 — 신뢰하지 말 것. 이 파일이 유일한 원가 소스."
+}
