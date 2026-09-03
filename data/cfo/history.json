@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-09-02",
-    "fetched_at": "2026-09-03T12:31:32.199409",
+    "fetched_at": "2026-09-03T13:06:49.570202",
     "meta": {
       "spend": 1048893.0,
       "impressions": 27366,
@@ -31,6 +31,14 @@
       "total_revenue": 2363000,
       "paid_order_count": 26
     },
+    "cafe24_funnel": {
+      "visitors": 1297,
+      "product_views": 1198,
+      "cart_adds": 52,
+      "checkout_starts": 49,
+      "orders_completed": 30,
+      "payments_completed": 29
+    },
     "posthog_site": {
       "label": "자사몰",
       "avg_dwell_sec": 196.9,
@@ -48,12 +56,73 @@
       "net_revenue": 2148182,
       "main_cost_total": 314886,
       "other_cost_total": 63582,
+      "cogs_total": 378468,
+      "gross_profit": 1769714,
       "shipping_total": 82727,
       "pg_fee_total": 75186,
+      "manual_ad_spend": {
+        "SNA": 0,
+        "쇼어드랩스": 0
+      },
       "ad_spend_total": 1049977,
+      "sga_total": 1207891,
       "contribution_margin": 561823,
       "daily_fixed_allocated": 0,
       "net_after_fixed": 561823,
+      "line_items": [
+        {
+          "label": "매출액 (순매출, VAT제외)",
+          "amount": 2148182,
+          "statement": "I. 수익(매출액)"
+        },
+        {
+          "label": "본품 원가 (중국 직수입)",
+          "amount": -314886,
+          "statement": "II. 매출원가"
+        },
+        {
+          "label": "부자재 원가 (괄사·마사지젤)",
+          "amount": -63582,
+          "statement": "II. 매출원가"
+        },
+        {
+          "label": "매출총이익",
+          "amount": 1769714,
+          "statement": "III. 매출총이익",
+          "subtotal": true
+        },
+        {
+          "label": "택배비 (지급운임)",
+          "amount": -82727,
+          "statement": "IV. 판매비와관리비"
+        },
+        {
+          "label": "PG 수수료 (지급수수료)",
+          "amount": -75186,
+          "statement": "IV. 판매비와관리비"
+        },
+        {
+          "label": "광고비 - 메타/구글 (광고선전비)",
+          "amount": -1049977,
+          "statement": "IV. 판매비와관리비"
+        },
+        {
+          "label": "광고비 - SNA (수동입력, 광고선전비)",
+          "amount": 0,
+          "statement": "IV. 판매비와관리비"
+        },
+        {
+          "label": "광고비 - 쇼어드랩스 (수동입력, 광고선전비)",
+          "amount": 0,
+          "statement": "IV. 판매비와관리비"
+        },
+        {
+          "label": "공헌이익 (변동비 반영, 영업이익 근사치)",
+          "amount": 561823,
+          "statement": "≈ V. 영업이익",
+          "subtotal": true
+        }
+      ],
       "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영."
     }
   }
