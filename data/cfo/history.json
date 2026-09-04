@@ -125,5 +125,248 @@
       ],
       "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영."
     }
+  },
+  {
+    "date": "2026-09-03",
+    "fetched_at": "2026-09-04T14:11:04.721711",
+    "meta": {
+      "spend": 1137452.0,
+      "impressions": 29498,
+      "clicks": 1142,
+      "cpm": 38560.309174,
+      "ctr": 3.871449,
+      "cpc": 996.017513,
+      "initiate_checkout": 111.0,
+      "purchases": 11.0,
+      "purchase_value": 1189000.0,
+      "cpa": 103404.72727272728,
+      "direct_roas": 1.0453188354321765
+    },
+    "google_ads": {
+      "spend": 60220.0,
+      "impressions": 876,
+      "clicks": 18,
+      "ctr": 0.02054794520547945,
+      "cpc": 3345.555555555555,
+      "conversions": 0.0,
+      "conversions_value": 0.0,
+      "cpa": null,
+      "direct_roas": 0.0
+    },
+    "cafe24": {
+      "order_count": 17,
+      "total_revenue": 1441179,
+      "paid_order_count": 14
+    },
+    "cafe24_funnel": {
+      "visitors": 1423,
+      "product_views": 1378,
+      "cart_adds": 43,
+      "checkout_starts": 34,
+      "orders_completed": 17,
+      "payments_completed": 17
+    },
+    "posthog_site": {
+      "label": "자사몰",
+      "avg_dwell_sec": 218.8,
+      "avg_dwell_sec_baseline_7d": 210.7,
+      "rageclicks": 55
+    },
+    "posthog_blog": {
+      "label": "블로그랜딩",
+      "avg_dwell_sec": 9065.0,
+      "avg_dwell_sec_baseline_7d": 371.5,
+      "rageclicks": 1
+    },
+    "blog_posts": [
+      {
+        "post": "post1",
+        "today": {
+          "views": 11,
+          "sessions": 16,
+          "avg_dwell_sec": 42.0,
+          "click_rate_pct": 12.5
+        },
+        "yesterday": {
+          "views": 18,
+          "sessions": 24,
+          "avg_dwell_sec": 115.7,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 12.0,
+          "sessions": 14.3,
+          "avg_dwell_sec": 91.5,
+          "click_rate_pct": 9.0
+        }
+      },
+      {
+        "post": "post2",
+        "today": {
+          "views": 45,
+          "sessions": 48,
+          "avg_dwell_sec": 71.3,
+          "click_rate_pct": 10.4
+        },
+        "yesterday": {
+          "views": 54,
+          "sessions": 52,
+          "avg_dwell_sec": 1200.8,
+          "click_rate_pct": 17.3
+        },
+        "week_avg": {
+          "views": 14.1,
+          "sessions": 14.3,
+          "avg_dwell_sec": 650.9,
+          "click_rate_pct": 14.0
+        }
+      },
+      {
+        "post": "post3",
+        "today": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 9,
+          "sessions": 2,
+          "avg_dwell_sec": 110.5,
+          "click_rate_pct": 50.0
+        },
+        "week_avg": {
+          "views": 1.3,
+          "sessions": 0.3,
+          "avg_dwell_sec": 110.5,
+          "click_rate_pct": 50.0
+        }
+      },
+      {
+        "post": "post4",
+        "today": {
+          "views": 7,
+          "sessions": 5,
+          "avg_dwell_sec": 119.0,
+          "click_rate_pct": 60.0
+        },
+        "yesterday": {
+          "views": 10,
+          "sessions": 2,
+          "avg_dwell_sec": 165.0,
+          "click_rate_pct": 50.0
+        },
+        "week_avg": {
+          "views": 2.4,
+          "sessions": 1.0,
+          "avg_dwell_sec": 134.3,
+          "click_rate_pct": 57.1
+        }
+      },
+      {
+        "post": "post5",
+        "today": {
+          "views": 1,
+          "sessions": 1,
+          "avg_dwell_sec": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 10,
+          "sessions": 5,
+          "avg_dwell_sec": 60.5,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 1.6,
+          "sessions": 0.9,
+          "avg_dwell_sec": 60.5,
+          "click_rate_pct": 0.0
+        }
+      }
+    ],
+    "cfo": {
+      "units_approx": 14,
+      "net_revenue": 1310163,
+      "main_cost_total": 169554,
+      "other_cost_total": 34236,
+      "cogs_total": 203790,
+      "gross_profit": 1106372,
+      "shipping_total": 44545,
+      "pg_fee_total": 45856,
+      "manual_ad_spend": {},
+      "ad_spend_total": 1197672,
+      "sga_total": 1288073,
+      "contribution_margin": -181701,
+      "daily_fixed_allocated": 0,
+      "operating_profit": -181701,
+      "pretax_income": -181701,
+      "net_income": -181701,
+      "net_after_fixed": -181701,
+      "line_items": [
+        {
+          "label": "매출액 (순매출, VAT제외)",
+          "amount": 1310163,
+          "statement": "I. 수익(매출액)"
+        },
+        {
+          "label": "본품 원가 (중국 직수입)",
+          "amount": -169554,
+          "statement": "II. 매출원가"
+        },
+        {
+          "label": "부자재 원가 (괄사·마사지젤)",
+          "amount": -34236,
+          "statement": "II. 매출원가"
+        },
+        {
+          "label": "매출총이익",
+          "amount": 1106372,
+          "statement": "III. 매출총이익",
+          "subtotal": true
+        },
+        {
+          "label": "택배비 (지급운임)",
+          "amount": -44545,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "PG 수수료 (지급수수료)",
+          "amount": -45856,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고비 - 메타/구글 (광고선전비)",
+          "amount": -1197672,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
+          "amount": -181701,
+          "statement": "관리회계",
+          "subtotal": true
+        },
+        {
+          "label": "영업이익(손실)",
+          "amount": -181701,
+          "statement": "V. 영업이익(손실)",
+          "subtotal": true
+        },
+        {
+          "label": "법인세비용차감전순이익(손실)",
+          "amount": -181701,
+          "statement": "XI. 법인세비용차감전순이익(손실)",
+          "subtotal": true
+        },
+        {
+          "label": "당기순이익(손실)",
+          "amount": -181701,
+          "statement": "XIII. 당기순이익(손실)",
+          "subtotal": true,
+          "final": true
+        }
+      ],
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+    }
   }
 ]
