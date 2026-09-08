@@ -63,9 +63,9 @@
     "error": "HTTP Error 403: Forbidden"
   },
   "smartstore": {
-    "order_count": 0,
-    "total_revenue": 0,
-    "paid_order_count": 0
+    "order_count": 3,
+    "total_revenue": 267000,
+    "paid_order_count": 3
   },
   "cafe24_funnel": {
     "visitors": 1886,
@@ -210,53 +210,53 @@
     }
   ],
   "cfo": {
-    "units_approx": 38,
-    "net_revenue": 3013249,
-    "main_cost_total": 460218,
-    "other_cost_total": 92927,
-    "cogs_total": 553145,
-    "gross_profit": 2460104,
-    "shipping_total": 120909,
-    "pg_fee_total": 105464,
+    "units_approx": 41,
+    "net_revenue": 3255976,
+    "main_cost_total": 496551,
+    "other_cost_total": 100264,
+    "cogs_total": 596815,
+    "gross_profit": 2659162,
+    "shipping_total": 130455,
+    "pg_fee_total": 113959,
     "manual_ad_spend": {},
     "ad_spend_total": 1643031,
-    "sga_total": 1869403,
-    "contribution_margin": 590700,
+    "sga_total": 1887444,
+    "contribution_margin": 771717,
     "daily_fixed_allocated": 0,
-    "operating_profit": 590700,
-    "pretax_income": 590700,
-    "net_income": 590700,
-    "net_after_fixed": 590700,
+    "operating_profit": 771717,
+    "pretax_income": 771717,
+    "net_income": 771717,
+    "net_after_fixed": 771717,
     "line_items": [
       {
         "label": "매출액 (순매출, VAT제외)",
-        "amount": 3013249,
+        "amount": 3255976,
         "statement": "I. 수익(매출액)"
       },
       {
         "label": "본품 원가 (중국 직수입)",
-        "amount": -460218,
+        "amount": -496551,
         "statement": "II. 매출원가"
       },
       {
         "label": "부자재 원가 (괄사·마사지젤)",
-        "amount": -92927,
+        "amount": -100264,
         "statement": "II. 매출원가"
       },
       {
         "label": "매출총이익",
-        "amount": 2460104,
+        "amount": 2659162,
         "statement": "III. 매출총이익",
         "subtotal": true
       },
       {
         "label": "택배비 (지급운임)",
-        "amount": -120909,
+        "amount": -130455,
         "statement": "IV. 판매비와관리비 (변동)"
       },
       {
         "label": "PG 수수료 (지급수수료)",
-        "amount": -105464,
+        "amount": -113959,
         "statement": "IV. 판매비와관리비 (변동)"
       },
       {
@@ -266,25 +266,25 @@
       },
       {
         "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-        "amount": 590700,
+        "amount": 771717,
         "statement": "관리회계",
         "subtotal": true
       },
       {
         "label": "영업이익(손실)",
-        "amount": 590700,
+        "amount": 771717,
         "statement": "V. 영업이익(손실)",
         "subtotal": true
       },
       {
         "label": "법인세비용차감전순이익(손실)",
-        "amount": 590700,
+        "amount": 771717,
         "statement": "XI. 법인세비용차감전순이익(손실)",
         "subtotal": true
       },
       {
         "label": "당기순이익(손실)",
-        "amount": 590700,
+        "amount": 771717,
         "statement": "XIII. 당기순이익(손실)",
         "subtotal": true,
         "final": true
