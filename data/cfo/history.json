@@ -629,19 +629,48 @@
   },
   {
     "date": "2026-09-07",
-    "fetched_at": "2026-09-08T10:51:40.606370",
+    "fetched_at": "2026-09-08T12:13:27.425898",
     "meta": {
-      "spend": 972910.0,
-      "impressions": 29721,
-      "clicks": 1139,
-      "cpm": 32734.766663,
-      "ctr": 3.832307,
-      "cpc": 854.179104,
-      "initiate_checkout": 128.0,
-      "purchases": 27.0,
-      "purchase_value": 2319000.0,
-      "cpa": 36033.7037037037,
-      "direct_roas": 2.3835709366745124
+      "spend": 1520869.0,
+      "impressions": 51680,
+      "clicks": 1803,
+      "cpm": 29428.579721362228,
+      "ctr": 3.488777089783282,
+      "cpc": 843.5213533000555,
+      "initiate_checkout": 237.0,
+      "purchases": 36.0,
+      "purchase_value": 3138000.0,
+      "cpa": 42246.36111111111,
+      "direct_roas": 2.0632940772676673,
+      "by_account": [
+        {
+          "label": "\\meta_ads_api.json",
+          "spend": 972927.0,
+          "impressions": 29722,
+          "clicks": 1140,
+          "initiate_checkout": 128.0,
+          "purchases": 27.0,
+          "purchase_value": 2319000.0
+        },
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 107546.0,
+          "impressions": 3263,
+          "clicks": 75,
+          "initiate_checkout": 18.0,
+          "purchases": 3.0,
+          "purchase_value": 262500.0
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "spend": 440396.0,
+          "impressions": 18695,
+          "clicks": 588,
+          "initiate_checkout": 91.0,
+          "purchases": 6.0,
+          "purchase_value": 556500.0
+        }
+      ]
     },
     "google_ads": {
       "spend": 122161.670092,
@@ -693,45 +722,45 @@
         "today": {
           "views": 10,
           "sessions": 12,
-          "avg_dwell_sec": 6.0,
+          "avg_dwell_sec": 7.0,
           "clicks": 0,
           "click_rate_pct": 0.0
         },
         "yesterday": {
-          "views": 4,
-          "sessions": 4,
-          "avg_dwell_sec": 240.0,
+          "views": 3,
+          "sessions": 3,
+          "avg_dwell_sec": 18.0,
           "clicks": 0,
           "click_rate_pct": 0.0
         },
         "week_avg": {
-          "views": 14.9,
+          "views": 14.7,
           "sessions": 14.3,
-          "avg_dwell_sec": 6946.8,
-          "clicks": 1.1,
-          "click_rate_pct": 8.0
+          "avg_dwell_sec": 6466.4,
+          "clicks": 0.9,
+          "click_rate_pct": 6.0
         }
       },
       {
         "post": "post2",
         "today": {
-          "views": 15,
-          "sessions": 15,
-          "avg_dwell_sec": 208.5,
+          "views": 20,
+          "sessions": 17,
+          "avg_dwell_sec": 292.1,
           "clicks": 4,
-          "click_rate_pct": 26.7
+          "click_rate_pct": 23.5
         },
         "yesterday": {
-          "views": 20,
-          "sessions": 21,
-          "avg_dwell_sec": 70.7,
+          "views": 19,
+          "sessions": 20,
+          "avg_dwell_sec": 74.1,
           "clicks": 2,
-          "click_rate_pct": 9.5
+          "click_rate_pct": 10.0
         },
         "week_avg": {
-          "views": 15.0,
+          "views": 15.6,
           "sessions": 14.3,
-          "avg_dwell_sec": 6055.9,
+          "avg_dwell_sec": 6002.9,
           "clicks": 1.7,
           "click_rate_pct": 12.0
         }
@@ -819,14 +848,14 @@
       "shipping_total": 120909,
       "pg_fee_total": 105464,
       "manual_ad_spend": {},
-      "ad_spend_total": 1095072,
-      "sga_total": 1321444,
-      "contribution_margin": 1138659,
+      "ad_spend_total": 1643031,
+      "sga_total": 1869403,
+      "contribution_margin": 590700,
       "daily_fixed_allocated": 0,
-      "operating_profit": 1138659,
-      "pretax_income": 1138659,
-      "net_income": 1138659,
-      "net_after_fixed": 1138659,
+      "operating_profit": 590700,
+      "pretax_income": 590700,
+      "net_income": 590700,
+      "net_after_fixed": 590700,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
@@ -861,30 +890,30 @@
         },
         {
           "label": "광고비 - 메타/구글 (광고선전비)",
-          "amount": -1095072,
+          "amount": -1643031,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 1138659,
+          "amount": 590700,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 1138659,
+          "amount": 590700,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 1138659,
+          "amount": 590700,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 1138659,
+          "amount": 590700,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
