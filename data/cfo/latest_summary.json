@@ -1,45 +1,45 @@
 {
-  "date": "2026-09-11",
-  "fetched_at": "2026-09-12T09:02:12.630179",
+  "date": "2026-09-12",
+  "fetched_at": "2026-09-13T09:02:06.385343",
   "meta": {
-    "spend": 2049568.0,
-    "impressions": 60204,
-    "clicks": 2133,
-    "cpm": 34043.718025380374,
-    "ctr": 3.5429539565477377,
-    "cpc": 960.8851383028598,
-    "initiate_checkout": 293.0,
-    "purchases": 40.0,
-    "purchase_value": 3612500.0,
-    "cpa": 51239.2,
-    "direct_roas": 1.7625665506096895,
+    "spend": 2388002.0,
+    "impressions": 77987,
+    "clicks": 3029,
+    "cpm": 30620.51367535615,
+    "ctr": 3.8839806634439076,
+    "cpc": 788.3796632551997,
+    "initiate_checkout": 404.0,
+    "purchases": 48.0,
+    "purchase_value": 4372500.0,
+    "cpa": 49750.041666666664,
+    "direct_roas": 1.8310286172289638,
     "by_account": [
       {
         "label": "\\meta_ads_api.json",
-        "spend": 1413218.0,
-        "impressions": 43617,
-        "clicks": 1591,
-        "initiate_checkout": 206.0,
-        "purchases": 29.0,
-        "purchase_value": 2582000.0
+        "spend": 1940947.0,
+        "impressions": 66051,
+        "clicks": 2567,
+        "initiate_checkout": 313.0,
+        "purchases": 39.0,
+        "purchase_value": 3575000.0
       },
       {
         "label": "SNA_아이로아뷰티",
-        "spend": 100812.0,
-        "impressions": 1689,
-        "clicks": 56,
-        "initiate_checkout": 12.0,
-        "purchases": 2.0,
-        "purchase_value": 175000.0
+        "spend": 79021.0,
+        "impressions": 1503,
+        "clicks": 44,
+        "initiate_checkout": 14.0,
+        "purchases": 3.0,
+        "purchase_value": 267500.0
       },
       {
         "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
-        "spend": 535538.0,
-        "impressions": 14898,
-        "clicks": 486,
-        "initiate_checkout": 75.0,
-        "purchases": 9.0,
-        "purchase_value": 855500.0
+        "spend": 368034.0,
+        "impressions": 10433,
+        "clicks": 418,
+        "initiate_checkout": 77.0,
+        "purchases": 6.0,
+        "purchase_value": 530000.0
       }
     ]
   },
@@ -55,59 +55,59 @@
     "direct_roas": null
   },
   "cafe24": {
-    "order_count": 42,
-    "total_revenue": 3199133,
-    "paid_order_count": 36
+    "order_count": 50,
+    "total_revenue": 4452239,
+    "paid_order_count": 49
   },
   "coupang": {
     "error": "HTTP Error 403: Forbidden"
   },
   "smartstore": {
-    "order_count": 2,
-    "total_revenue": 178000,
-    "paid_order_count": 2
+    "order_count": 0,
+    "total_revenue": 0,
+    "paid_order_count": 0
   },
   "cafe24_funnel": {
-    "visitors": 2286,
-    "product_views": 2203,
-    "cart_adds": 98,
-    "checkout_starts": 66,
-    "orders_completed": 41,
-    "payments_completed": 40
+    "visitors": 3395,
+    "product_views": 3286,
+    "cart_adds": 116,
+    "checkout_starts": 84,
+    "orders_completed": 50,
+    "payments_completed": 50
   },
   "posthog_site": {
     "label": "자사몰",
-    "avg_dwell_sec": 145.3,
-    "avg_dwell_sec_baseline_7d": 172.6,
-    "rageclicks": 81
+    "avg_dwell_sec": 121.1,
+    "avg_dwell_sec_baseline_7d": 164.4,
+    "rageclicks": 75
   },
   "posthog_blog": {
     "label": "블로그랜딩",
-    "avg_dwell_sec": 329.4,
-    "avg_dwell_sec_baseline_7d": 6198.5,
-    "rageclicks": 2
+    "avg_dwell_sec": 193.0,
+    "avg_dwell_sec_baseline_7d": 6198.6,
+    "rageclicks": 0
   },
   "blog_posts": [
     {
       "post": "post1",
       "today": {
+        "views": 13,
+        "sessions": 12,
+        "avg_dwell_sec": 19.3,
+        "clicks": 0,
+        "click_rate_pct": 0.0
+      },
+      "yesterday": {
         "views": 16,
         "sessions": 16,
         "avg_dwell_sec": 14.7,
         "clicks": 0,
         "click_rate_pct": 0.0
       },
-      "yesterday": {
-        "views": 21,
-        "sessions": 20,
-        "avg_dwell_sec": 39.3,
-        "clicks": 0,
-        "click_rate_pct": 0.0
-      },
       "week_avg": {
         "views": 16.4,
         "sessions": 14.3,
-        "avg_dwell_sec": 5535.1,
+        "avg_dwell_sec": 4258.1,
         "clicks": 0.1,
         "click_rate_pct": 1.0
       }
@@ -115,42 +115,42 @@
     {
       "post": "post2",
       "today": {
+        "views": 6,
+        "sessions": 9,
+        "avg_dwell_sec": 54.2,
+        "clicks": 0,
+        "click_rate_pct": 0.0
+      },
+      "yesterday": {
         "views": 4,
         "sessions": 5,
         "avg_dwell_sec": 81.0,
         "clicks": 0,
         "click_rate_pct": 0.0
       },
-      "yesterday": {
-        "views": 7,
-        "sessions": 7,
-        "avg_dwell_sec": 45.3,
-        "clicks": 1,
-        "click_rate_pct": 14.3
-      },
       "week_avg": {
-        "views": 16.4,
+        "views": 15.4,
         "sessions": 14.3,
-        "avg_dwell_sec": 6555.7,
-        "clicks": 1.9,
-        "click_rate_pct": 13.0
+        "avg_dwell_sec": 5233.2,
+        "clicks": 1.3,
+        "click_rate_pct": 9.0
       }
     },
     {
       "post": "post3",
       "today": {
+        "views": 0,
+        "sessions": 0,
+        "avg_dwell_sec": 0,
+        "clicks": 0,
+        "click_rate_pct": 0.0
+      },
+      "yesterday": {
         "views": 11,
         "sessions": 10,
         "avg_dwell_sec": 100.2,
         "clicks": 1,
         "click_rate_pct": 10.0
-      },
-      "yesterday": {
-        "views": 29,
-        "sessions": 26,
-        "avg_dwell_sec": 63.8,
-        "clicks": 1,
-        "click_rate_pct": 3.8
       },
       "week_avg": {
         "views": 6.9,
@@ -170,18 +170,18 @@
         "click_rate_pct": 0.0
       },
       "yesterday": {
-        "views": 4,
-        "sessions": 4,
-        "avg_dwell_sec": 112.0,
+        "views": 0,
+        "sessions": 0,
+        "avg_dwell_sec": 0,
         "clicks": 0,
         "click_rate_pct": 0.0
       },
       "week_avg": {
-        "views": 2.6,
-        "sessions": 1.7,
-        "avg_dwell_sec": 153.7,
-        "clicks": 0.1,
-        "click_rate_pct": 8.3
+        "views": 2.4,
+        "sessions": 1.6,
+        "avg_dwell_sec": 161.6,
+        "clicks": 0.0,
+        "click_rate_pct": 0.0
       }
     },
     {
@@ -194,15 +194,15 @@
         "click_rate_pct": 0.0
       },
       "yesterday": {
-        "views": 1,
-        "sessions": 1,
-        "avg_dwell_sec": 12.0,
+        "views": 0,
+        "sessions": 0,
+        "avg_dwell_sec": 0,
         "clicks": 0,
         "click_rate_pct": 0.0
       },
       "week_avg": {
-        "views": 1.6,
-        "sessions": 1.3,
+        "views": 1.4,
+        "sessions": 1.1,
         "avg_dwell_sec": 42.2,
         "clicks": 0.0,
         "click_rate_pct": 0.0
@@ -210,81 +210,81 @@
     }
   ],
   "cfo": {
-    "units_approx": 38,
-    "net_revenue": 3070121,
-    "main_cost_total": 460218,
-    "other_cost_total": 92927,
-    "cogs_total": 553145,
-    "gross_profit": 2516976,
-    "shipping_total": 120909,
-    "pg_fee_total": 107454,
+    "units_approx": 49,
+    "net_revenue": 4047490,
+    "main_cost_total": 593439,
+    "other_cost_total": 119827,
+    "cogs_total": 713266,
+    "gross_profit": 3334224,
+    "shipping_total": 155909,
+    "pg_fee_total": 141662,
     "manual_ad_spend": {},
-    "ad_spend_total": 2049568,
-    "sga_total": 2277931,
-    "contribution_margin": 239044,
+    "ad_spend_total": 2388002,
+    "sga_total": 2685573,
+    "contribution_margin": 648650,
     "daily_fixed_allocated": 0,
-    "operating_profit": 239044,
-    "pretax_income": 239044,
-    "net_income": 239044,
-    "net_after_fixed": 239044,
+    "operating_profit": 648650,
+    "pretax_income": 648650,
+    "net_income": 648650,
+    "net_after_fixed": 648650,
     "line_items": [
       {
         "label": "매출액 (순매출, VAT제외)",
-        "amount": 3070121,
+        "amount": 4047490,
         "statement": "I. 수익(매출액)"
       },
       {
         "label": "본품 원가 (중국 직수입)",
-        "amount": -460218,
+        "amount": -593439,
         "statement": "II. 매출원가"
       },
       {
         "label": "부자재 원가 (괄사·마사지젤)",
-        "amount": -92927,
+        "amount": -119827,
         "statement": "II. 매출원가"
       },
       {
         "label": "매출총이익",
-        "amount": 2516976,
+        "amount": 3334224,
         "statement": "III. 매출총이익",
         "subtotal": true
       },
       {
         "label": "택배비 (지급운임)",
-        "amount": -120909,
+        "amount": -155909,
         "statement": "IV. 판매비와관리비 (변동)"
       },
       {
         "label": "PG 수수료 (지급수수료)",
-        "amount": -107454,
+        "amount": -141662,
         "statement": "IV. 판매비와관리비 (변동)"
       },
       {
         "label": "광고비 - 메타/구글 (광고선전비)",
-        "amount": -2049568,
+        "amount": -2388002,
         "statement": "IV. 판매비와관리비 (변동)"
       },
       {
         "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-        "amount": 239044,
+        "amount": 648650,
         "statement": "관리회계",
         "subtotal": true
       },
       {
         "label": "영업이익(손실)",
-        "amount": 239044,
+        "amount": 648650,
         "statement": "V. 영업이익(손실)",
         "subtotal": true
       },
       {
         "label": "법인세비용차감전순이익(손실)",
-        "amount": 239044,
+        "amount": 648650,
         "statement": "XI. 법인세비용차감전순이익(손실)",
         "subtotal": true
       },
       {
         "label": "당기순이익(손실)",
-        "amount": 239044,
+        "amount": 648650,
         "statement": "XIII. 당기순이익(손실)",
         "subtotal": true,
         "final": true
