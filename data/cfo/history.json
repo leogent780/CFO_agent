@@ -5438,5 +5438,352 @@
       ],
       "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
     }
+  },
+  {
+    "date": "2026-09-22",
+    "fetched_at": "2026-09-23T09:02:27.147854",
+    "meta": {
+      "spend": 2287190.0,
+      "impressions": 104387,
+      "clicks": 4179,
+      "cpm": 21910.67853276749,
+      "ctr": 4.0033720674030295,
+      "cpc": 547.3055754965303,
+      "initiate_checkout": 529.0,
+      "purchases": 42.0,
+      "purchase_value": 3886917.0,
+      "cpa": 54456.90476190476,
+      "direct_roas": 1.6994289936559708,
+      "by_account": [
+        {
+          "label": "\\meta_ads_api.json",
+          "spend": 2010033.0,
+          "impressions": 94874,
+          "clicks": 3941,
+          "initiate_checkout": 468.0,
+          "purchases": 35.0,
+          "purchase_value": 3237917.0
+        },
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 111641.0,
+          "impressions": 2822,
+          "clicks": 60,
+          "initiate_checkout": 20.0,
+          "purchases": 2.0,
+          "purchase_value": 170000.0
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "spend": 165516.0,
+          "impressions": 6691,
+          "clicks": 178,
+          "initiate_checkout": 41.0,
+          "purchases": 5.0,
+          "purchase_value": 479000.0
+        }
+      ]
+    },
+    "google_ads": {
+      "spend": 94615.0,
+      "impressions": 1090,
+      "clicks": 36,
+      "ctr": 0.03302752293577982,
+      "cpc": 2628.194444444445,
+      "conversions": 0.0,
+      "conversions_value": 0.0,
+      "cpa": null,
+      "direct_roas": 0.0
+    },
+    "cafe24": {
+      "order_count": 51,
+      "total_revenue": 4339861,
+      "paid_order_count": 46
+    },
+    "coupang": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "smartstore": {
+      "order_count": 7,
+      "total_revenue": 618100,
+      "paid_order_count": 7
+    },
+    "cafe24_funnel": {
+      "visitors": 4509,
+      "product_views": 4340,
+      "cart_adds": 105,
+      "checkout_starts": 76,
+      "orders_completed": 51,
+      "payments_completed": 51
+    },
+    "cafe24_late_refunds": {
+      "same_day_count": 3,
+      "same_day_amount": 242500,
+      "late_count": 2,
+      "late_amount": 226500,
+      "items": [
+        {
+          "amount": 139000,
+          "order_date": "2026-09-20",
+          "refund_completed_date": "2026-09-22"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-21",
+          "refund_completed_date": "2026-09-22"
+        }
+      ]
+    },
+    "naver_ads": {
+      "error": "session_expired (네이버 재로그인 필요)"
+    },
+    "posthog_site": {
+      "label": "자사몰",
+      "avg_dwell_sec": 81.4,
+      "avg_dwell_sec_baseline_7d": 119.4,
+      "rageclicks": 125
+    },
+    "posthog_blog": {
+      "label": "블로그랜딩",
+      "avg_dwell_sec": 94.1,
+      "avg_dwell_sec_baseline_7d": 4921.4,
+      "rageclicks": 1
+    },
+    "blog_posts": [
+      {
+        "post": "post1",
+        "today": {
+          "views": 24,
+          "sessions": 22,
+          "avg_dwell_sec": 70.4,
+          "clicks": 1,
+          "click_rate_pct": 4.5
+        },
+        "yesterday": {
+          "views": 19,
+          "sessions": 16,
+          "avg_dwell_sec": 105.7,
+          "clicks": 3,
+          "click_rate_pct": 18.8
+        },
+        "week_avg": {
+          "views": 15.1,
+          "sessions": 14.3,
+          "avg_dwell_sec": 6626.6,
+          "clicks": 1.3,
+          "click_rate_pct": 9.0
+        }
+      },
+      {
+        "post": "post2",
+        "today": {
+          "views": 10,
+          "sessions": 13,
+          "avg_dwell_sec": 21.2,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 14,
+          "sessions": 19,
+          "avg_dwell_sec": 227.6,
+          "clicks": 2,
+          "click_rate_pct": 10.5
+        },
+        "week_avg": {
+          "views": 17.7,
+          "sessions": 14.3,
+          "avg_dwell_sec": 7470.5,
+          "clicks": 1.1,
+          "click_rate_pct": 8.0
+        }
+      },
+      {
+        "post": "post3",
+        "today": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 0.1,
+          "sessions": 0.1,
+          "avg_dwell_sec": 139.0,
+          "clicks": 0.1,
+          "click_rate_pct": 100.0
+        }
+      },
+      {
+        "post": "post4",
+        "today": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 0.1,
+          "sessions": 0.1,
+          "avg_dwell_sec": 22.0,
+          "clicks": 0.1,
+          "click_rate_pct": 100.0
+        }
+      },
+      {
+        "post": "post5",
+        "today": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 1,
+          "sessions": 1,
+          "avg_dwell_sec": 2.0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 0.1,
+          "sessions": 0.1,
+          "avg_dwell_sec": 2.0,
+          "clicks": 0.0,
+          "click_rate_pct": 0.0
+        }
+      }
+    ],
+    "cfo": {
+      "units_approx": 53,
+      "net_revenue": 4507237,
+      "main_cost_total": 608599,
+      "other_cost_total": 129609,
+      "cogs_total": 738208,
+      "gross_profit": 3769029,
+      "shipping_total": 168636,
+      "pg_fee_total": 157753,
+      "manual_ad_spend": {},
+      "ad_spend_total": 2381805,
+      "late_refund_total": 226500,
+      "agency_fee_total": 35992,
+      "agency_fee_detail": [
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 111641.0,
+          "rate_pct": 10,
+          "fee": 11164
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "spend": 165516.0,
+          "rate_pct": 15,
+          "fee": 24827
+        }
+      ],
+      "sga_total": 2970687,
+      "contribution_margin": 798343,
+      "daily_fixed_allocated": 0,
+      "operating_profit": 798343,
+      "pretax_income": 798343,
+      "net_income": 798343,
+      "net_after_fixed": 798343,
+      "line_items": [
+        {
+          "label": "매출액 (순매출, VAT제외)",
+          "amount": 4507237,
+          "statement": "I. 수익(매출액)"
+        },
+        {
+          "label": "본품 원가 (중국 직수입)",
+          "amount": -608599,
+          "statement": "II. 매출원가"
+        },
+        {
+          "label": "부자재 원가 (괄사·마사지젤)",
+          "amount": -129609,
+          "statement": "II. 매출원가"
+        },
+        {
+          "label": "매출총이익",
+          "amount": 3769029,
+          "statement": "III. 매출총이익",
+          "subtotal": true
+        },
+        {
+          "label": "택배비 (지급운임)",
+          "amount": -168636,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "PG 수수료 (지급수수료)",
+          "amount": -157753,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
+          "amount": -2381805,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - SNA_아이로아뷰티 (10%)",
+          "amount": -11164,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - 쇼어드랩스_에이나인글로벌_대행_광고계정 (15%)",
+          "amount": -24827,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "지연 환불 - 취소·반품 (2건, 이전 날짜 주문 · 매출액 미차감)",
+          "amount": -226500,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
+          "amount": 798343,
+          "statement": "관리회계",
+          "subtotal": true
+        },
+        {
+          "label": "영업이익(손실)",
+          "amount": 798343,
+          "statement": "V. 영업이익(손실)",
+          "subtotal": true
+        },
+        {
+          "label": "법인세비용차감전순이익(손실)",
+          "amount": 798343,
+          "statement": "XI. 법인세비용차감전순이익(손실)",
+          "subtotal": true
+        },
+        {
+          "label": "당기순이익(손실)",
+          "amount": 798343,
+          "statement": "XIII. 당기순이익(손실)",
+          "subtotal": true,
+          "final": true
+        }
+      ],
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+    }
   }
 ]
