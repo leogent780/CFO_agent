@@ -28,8 +28,10 @@
     },
     "cafe24": {
       "order_count": 30,
-      "total_revenue": 2363000,
-      "paid_order_count": 26
+      "total_revenue": 2614500,
+      "paid_order_count": 26,
+      "actual_paid_revenue": 2363000,
+      "point_revenue": 251500
     },
     "cafe24_funnel": {
       "visitors": 1297,
@@ -53,11 +55,11 @@
     },
     "cfo": {
       "units_approx": 26,
-      "net_revenue": 2148182,
-      "main_cost_total": 314886,
+      "net_revenue": 2376818,
+      "main_cost_total": 298558,
       "other_cost_total": 63582,
-      "cogs_total": 378468,
-      "gross_profit": 1769714,
+      "cogs_total": 362140,
+      "gross_profit": 2014678,
       "shipping_total": 82727,
       "pg_fee_total": 75186,
       "manual_ad_spend": {
@@ -65,19 +67,25 @@
         "쇼어드랩스": 0
       },
       "ad_spend_total": 1049977,
+      "late_refund_total": 0,
+      "agency_fee_total": 0,
+      "agency_fee_detail": [],
       "sga_total": 1207891,
-      "contribution_margin": 561823,
+      "contribution_margin": 806788,
       "daily_fixed_allocated": 0,
-      "net_after_fixed": 561823,
+      "operating_profit": 806788,
+      "pretax_income": 806788,
+      "net_income": 806788,
+      "net_after_fixed": 806788,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 2148182,
+          "amount": 2376818,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -314886,
+          "amount": -298558,
           "statement": "II. 매출원가"
         },
         {
@@ -87,43 +95,62 @@
         },
         {
           "label": "매출총이익",
-          "amount": 1769714,
+          "amount": 2014678,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
         {
           "label": "택배비 (지급운임)",
           "amount": -82727,
-          "statement": "IV. 판매비와관리비"
+          "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "PG 수수료 (지급수수료)",
           "amount": -75186,
-          "statement": "IV. 판매비와관리비"
+          "statement": "IV. 판매비와관리비 (변동)"
         },
         {
-          "label": "광고비 - 메타/구글 (광고선전비)",
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
           "amount": -1049977,
-          "statement": "IV. 판매비와관리비"
+          "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "광고비 - SNA (수동입력, 광고선전비)",
           "amount": 0,
-          "statement": "IV. 판매비와관리비"
+          "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "광고비 - 쇼어드랩스 (수동입력, 광고선전비)",
           "amount": 0,
-          "statement": "IV. 판매비와관리비"
+          "statement": "IV. 판매비와관리비 (변동)"
         },
         {
-          "label": "공헌이익 (변동비 반영, 영업이익 근사치)",
-          "amount": 561823,
-          "statement": "≈ V. 영업이익",
+          "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
+          "amount": 806788,
+          "statement": "관리회계",
           "subtotal": true
+        },
+        {
+          "label": "영업이익(손실)",
+          "amount": 806788,
+          "statement": "V. 영업이익(손실)",
+          "subtotal": true
+        },
+        {
+          "label": "법인세비용차감전순이익(손실)",
+          "amount": 806788,
+          "statement": "XI. 법인세비용차감전순이익(손실)",
+          "subtotal": true
+        },
+        {
+          "label": "당기순이익(손실)",
+          "amount": 806788,
+          "statement": "XIII. 당기순이익(손실)",
+          "subtotal": true,
+          "final": true
         }
       ],
-      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영."
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
     }
   },
   {
@@ -155,8 +182,10 @@
     },
     "cafe24": {
       "order_count": 17,
-      "total_revenue": 1441179,
-      "paid_order_count": 14
+      "total_revenue": 1716500,
+      "paid_order_count": 14,
+      "actual_paid_revenue": 1441179,
+      "point_revenue": 275321
     },
     "cafe24_funnel": {
       "visitors": 1423,
@@ -287,31 +316,34 @@
     ],
     "cfo": {
       "units_approx": 14,
-      "net_revenue": 1310163,
-      "main_cost_total": 169554,
+      "net_revenue": 1560455,
+      "main_cost_total": 160762,
       "other_cost_total": 34236,
-      "cogs_total": 203790,
-      "gross_profit": 1106372,
+      "cogs_total": 194998,
+      "gross_profit": 1365456,
       "shipping_total": 44545,
       "pg_fee_total": 45856,
       "manual_ad_spend": {},
       "ad_spend_total": 1197672,
+      "late_refund_total": 0,
+      "agency_fee_total": 0,
+      "agency_fee_detail": [],
       "sga_total": 1288073,
-      "contribution_margin": -181701,
+      "contribution_margin": 77383,
       "daily_fixed_allocated": 0,
-      "operating_profit": -181701,
-      "pretax_income": -181701,
-      "net_income": -181701,
-      "net_after_fixed": -181701,
+      "operating_profit": 77383,
+      "pretax_income": 77383,
+      "net_income": 77383,
+      "net_after_fixed": 77383,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 1310163,
+          "amount": 1560455,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -169554,
+          "amount": -160762,
           "statement": "II. 매출원가"
         },
         {
@@ -321,7 +353,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 1106372,
+          "amount": 1365456,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -336,37 +368,37 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
-          "label": "광고비 - 메타/구글 (광고선전비)",
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
           "amount": -1197672,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": -181701,
+          "amount": 77383,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": -181701,
+          "amount": 77383,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": -181701,
+          "amount": 77383,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": -181701,
+          "amount": 77383,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
         }
       ],
-      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
     }
   },
   {
@@ -398,8 +430,10 @@
     },
     "cafe24": {
       "order_count": 49,
-      "total_revenue": 3638685,
-      "paid_order_count": 41
+      "total_revenue": 3921500,
+      "paid_order_count": 41,
+      "actual_paid_revenue": 3638685,
+      "point_revenue": 282815
     },
     "cafe24_funnel": {
       "visitors": 2243,
@@ -545,31 +579,34 @@
     ],
     "cfo": {
       "units_approx": 41,
-      "net_revenue": 3307895,
-      "main_cost_total": 496551,
+      "net_revenue": 3565000,
+      "main_cost_total": 470803,
       "other_cost_total": 100264,
-      "cogs_total": 596815,
-      "gross_profit": 2711081,
+      "cogs_total": 571067,
+      "gross_profit": 2993933,
       "shipping_total": 130455,
       "pg_fee_total": 115776,
       "manual_ad_spend": {},
       "ad_spend_total": 1452081,
+      "late_refund_total": 0,
+      "agency_fee_total": 0,
+      "agency_fee_detail": [],
       "sga_total": 1698312,
-      "contribution_margin": 1012769,
+      "contribution_margin": 1295621,
       "daily_fixed_allocated": 0,
-      "operating_profit": 1012769,
-      "pretax_income": 1012769,
-      "net_income": 1012769,
-      "net_after_fixed": 1012769,
+      "operating_profit": 1295621,
+      "pretax_income": 1295621,
+      "net_income": 1295621,
+      "net_after_fixed": 1295621,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 3307895,
+          "amount": 3565000,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -496551,
+          "amount": -470803,
           "statement": "II. 매출원가"
         },
         {
@@ -579,7 +616,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 2711081,
+          "amount": 2993933,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -594,37 +631,37 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
-          "label": "광고비 - 메타/구글 (광고선전비)",
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
           "amount": -1452081,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 1012769,
+          "amount": 1295621,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 1012769,
+          "amount": 1295621,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 1012769,
+          "amount": 1295621,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 1012769,
+          "amount": 1295621,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
         }
       ],
-      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
     }
   },
   {
@@ -685,8 +722,10 @@
     },
     "cafe24": {
       "order_count": 39,
-      "total_revenue": 3314574,
-      "paid_order_count": 38
+      "total_revenue": 3414000,
+      "paid_order_count": 38,
+      "actual_paid_revenue": 3314574,
+      "point_revenue": 99426
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -840,31 +879,47 @@
     ],
     "cfo": {
       "units_approx": 41,
-      "net_revenue": 3255976,
-      "main_cost_total": 496551,
+      "net_revenue": 3346364,
+      "main_cost_total": 470803,
       "other_cost_total": 100264,
-      "cogs_total": 596815,
-      "gross_profit": 2659162,
+      "cogs_total": 571067,
+      "gross_profit": 2775297,
       "shipping_total": 130455,
       "pg_fee_total": 113959,
       "manual_ad_spend": {},
       "ad_spend_total": 1643031,
-      "sga_total": 1887444,
-      "contribution_margin": 771717,
+      "late_refund_total": 0,
+      "agency_fee_total": 76814,
+      "agency_fee_detail": [
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 107546.0,
+          "rate_pct": 10,
+          "fee": 10755
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "spend": 440396.0,
+          "rate_pct": 15,
+          "fee": 66059
+        }
+      ],
+      "sga_total": 1964258,
+      "contribution_margin": 811039,
       "daily_fixed_allocated": 0,
-      "operating_profit": 771717,
-      "pretax_income": 771717,
-      "net_income": 771717,
-      "net_after_fixed": 771717,
+      "operating_profit": 811039,
+      "pretax_income": 811039,
+      "net_income": 811039,
+      "net_after_fixed": 811039,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 3255976,
+          "amount": 3346364,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -496551,
+          "amount": -470803,
           "statement": "II. 매출원가"
         },
         {
@@ -874,7 +929,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 2659162,
+          "amount": 2775297,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -889,37 +944,47 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
-          "label": "광고비 - 메타/구글 (광고선전비)",
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
           "amount": -1643031,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
+          "label": "광고대행 수수료 - SNA_아이로아뷰티 (10%)",
+          "amount": -10755,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - 쇼어드랩스_에이나인글로벌_대행_광고계정 (15%)",
+          "amount": -66059,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 771717,
+          "amount": 811039,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 771717,
+          "amount": 811039,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 771717,
+          "amount": 811039,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 771717,
+          "amount": 811039,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
         }
       ],
-      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
     }
   },
   {
@@ -980,8 +1045,10 @@
     },
     "cafe24": {
       "order_count": 22,
-      "total_revenue": 1869500,
-      "paid_order_count": 20
+      "total_revenue": 1962000,
+      "paid_order_count": 20,
+      "actual_paid_revenue": 1869500,
+      "point_revenue": 92500
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -1135,31 +1202,47 @@
     ],
     "cfo": {
       "units_approx": 23,
-      "net_revenue": 1942273,
-      "main_cost_total": 278553,
+      "net_revenue": 2026364,
+      "main_cost_total": 264109,
       "other_cost_total": 56245,
-      "cogs_total": 334798,
-      "gross_profit": 1607474,
+      "cogs_total": 320354,
+      "gross_profit": 1706009,
       "shipping_total": 73182,
       "pg_fee_total": 67980,
       "manual_ad_spend": {},
       "ad_spend_total": 1534672,
-      "sga_total": 1675833,
-      "contribution_margin": -68359,
+      "late_refund_total": 0,
+      "agency_fee_total": 74144,
+      "agency_fee_detail": [
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 86821.0,
+          "rate_pct": 10,
+          "fee": 8682
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "spend": 436410.0,
+          "rate_pct": 15,
+          "fee": 65462
+        }
+      ],
+      "sga_total": 1749977,
+      "contribution_margin": -43968,
       "daily_fixed_allocated": 0,
-      "operating_profit": -68359,
-      "pretax_income": -68359,
-      "net_income": -68359,
-      "net_after_fixed": -68359,
+      "operating_profit": -43968,
+      "pretax_income": -43968,
+      "net_income": -43968,
+      "net_after_fixed": -43968,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 1942273,
+          "amount": 2026364,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -278553,
+          "amount": -264109,
           "statement": "II. 매출원가"
         },
         {
@@ -1169,7 +1252,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 1607474,
+          "amount": 1706009,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -1184,37 +1267,47 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
-          "label": "광고비 - 메타/구글 (광고선전비)",
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
           "amount": -1534672,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
+          "label": "광고대행 수수료 - SNA_아이로아뷰티 (10%)",
+          "amount": -8682,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - 쇼어드랩스_에이나인글로벌_대행_광고계정 (15%)",
+          "amount": -65462,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": -68359,
+          "amount": -43968,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": -68359,
+          "amount": -43968,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": -68359,
+          "amount": -43968,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": -68359,
+          "amount": -43968,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
         }
       ],
-      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
     }
   },
   {
@@ -1275,8 +1368,10 @@
     },
     "cafe24": {
       "order_count": 32,
-      "total_revenue": 2775500,
-      "paid_order_count": 31
+      "total_revenue": 2868000,
+      "paid_order_count": 31,
+      "actual_paid_revenue": 2775500,
+      "point_revenue": 92500
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -1430,31 +1525,47 @@
     ],
     "cfo": {
       "units_approx": 32,
-      "net_revenue": 2601364,
-      "main_cost_total": 387552,
+      "net_revenue": 2685455,
+      "main_cost_total": 367456,
       "other_cost_total": 78255,
-      "cogs_total": 465807,
-      "gross_profit": 2135557,
+      "cogs_total": 445711,
+      "gross_profit": 2239744,
       "shipping_total": 101818,
       "pg_fee_total": 91048,
       "manual_ad_spend": {},
-      "ad_spend_total": 1390199,
-      "sga_total": 1583065,
-      "contribution_margin": 552492,
+      "ad_spend_total": 1487438,
+      "late_refund_total": 0,
+      "agency_fee_total": 67664,
+      "agency_fee_detail": [
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 114956.0,
+          "rate_pct": 10,
+          "fee": 11496
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "spend": 374456.0,
+          "rate_pct": 15,
+          "fee": 56168
+        }
+      ],
+      "sga_total": 1747968,
+      "contribution_margin": 491776,
       "daily_fixed_allocated": 0,
-      "operating_profit": 552492,
-      "pretax_income": 552492,
-      "net_income": 552492,
-      "net_after_fixed": 552492,
+      "operating_profit": 491776,
+      "pretax_income": 491776,
+      "net_income": 491776,
+      "net_after_fixed": 491776,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 2601364,
+          "amount": 2685455,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -387552,
+          "amount": -367456,
           "statement": "II. 매출원가"
         },
         {
@@ -1464,7 +1575,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 2135557,
+          "amount": 2239744,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -1479,37 +1590,47 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
-          "label": "광고비 - 메타/구글 (광고선전비)",
-          "amount": -1390199,
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
+          "amount": -1487438,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - SNA_아이로아뷰티 (10%)",
+          "amount": -11496,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - 쇼어드랩스_에이나인글로벌_대행_광고계정 (15%)",
+          "amount": -56168,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 552492,
+          "amount": 491776,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 552492,
+          "amount": 491776,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 552492,
+          "amount": 491776,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 552492,
+          "amount": 491776,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
         }
       ],
-      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
     }
   },
   {
@@ -1570,8 +1691,10 @@
     },
     "cafe24": {
       "order_count": 37,
-      "total_revenue": 3417878,
-      "paid_order_count": 37
+      "total_revenue": 3418500,
+      "paid_order_count": 37,
+      "actual_paid_revenue": 3417878,
+      "point_revenue": 622
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -1725,31 +1848,47 @@
     ],
     "cfo": {
       "units_approx": 39,
-      "net_revenue": 3268980,
-      "main_cost_total": 472329,
+      "net_revenue": 3269545,
+      "main_cost_total": 447837,
       "other_cost_total": 95373,
-      "cogs_total": 567702,
-      "gross_profit": 2701278,
+      "cogs_total": 543210,
+      "gross_profit": 2726336,
       "shipping_total": 124091,
       "pg_fee_total": 114414,
       "manual_ad_spend": {},
-      "ad_spend_total": 1578479,
-      "sga_total": 1816984,
-      "contribution_margin": 884294,
+      "ad_spend_total": 1891968,
+      "late_refund_total": 0,
+      "agency_fee_total": 76999,
+      "agency_fee_detail": [
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 93398.0,
+          "rate_pct": 10,
+          "fee": 9340
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "spend": 451060.0,
+          "rate_pct": 15,
+          "fee": 67659
+        }
+      ],
+      "sga_total": 2207472,
+      "contribution_margin": 518863,
       "daily_fixed_allocated": 0,
-      "operating_profit": 884294,
-      "pretax_income": 884294,
-      "net_income": 884294,
-      "net_after_fixed": 884294,
+      "operating_profit": 518863,
+      "pretax_income": 518863,
+      "net_income": 518863,
+      "net_after_fixed": 518863,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 3268980,
+          "amount": 3269545,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -472329,
+          "amount": -447837,
           "statement": "II. 매출원가"
         },
         {
@@ -1759,7 +1898,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 2701278,
+          "amount": 2726336,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -1774,37 +1913,47 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
-          "label": "광고비 - 메타/구글 (광고선전비)",
-          "amount": -1578479,
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
+          "amount": -1891968,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - SNA_아이로아뷰티 (10%)",
+          "amount": -9340,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - 쇼어드랩스_에이나인글로벌_대행_광고계정 (15%)",
+          "amount": -67659,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 884294,
+          "amount": 518863,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 884294,
+          "amount": 518863,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 884294,
+          "amount": 518863,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 884294,
+          "amount": 518863,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
         }
       ],
-      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
     }
   },
   {
@@ -1865,8 +2014,10 @@
     },
     "cafe24": {
       "order_count": 42,
-      "total_revenue": 3199133,
-      "paid_order_count": 36
+      "total_revenue": 3408000,
+      "paid_order_count": 36,
+      "actual_paid_revenue": 3199133,
+      "point_revenue": 208867
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -2020,31 +2171,47 @@
     ],
     "cfo": {
       "units_approx": 38,
-      "net_revenue": 3070121,
-      "main_cost_total": 460218,
+      "net_revenue": 3260000,
+      "main_cost_total": 436354,
       "other_cost_total": 92927,
-      "cogs_total": 553145,
-      "gross_profit": 2516976,
+      "cogs_total": 529281,
+      "gross_profit": 2730719,
       "shipping_total": 120909,
       "pg_fee_total": 107454,
       "manual_ad_spend": {},
-      "ad_spend_total": 2049568,
-      "sga_total": 2277931,
-      "contribution_margin": 239044,
+      "ad_spend_total": 2154406,
+      "late_refund_total": 0,
+      "agency_fee_total": 90412,
+      "agency_fee_detail": [
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 100812.0,
+          "rate_pct": 10,
+          "fee": 10081
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "spend": 535538.0,
+          "rate_pct": 15,
+          "fee": 80331
+        }
+      ],
+      "sga_total": 2473181,
+      "contribution_margin": 257538,
       "daily_fixed_allocated": 0,
-      "operating_profit": 239044,
-      "pretax_income": 239044,
-      "net_income": 239044,
-      "net_after_fixed": 239044,
+      "operating_profit": 257538,
+      "pretax_income": 257538,
+      "net_income": 257538,
+      "net_after_fixed": 257538,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 3070121,
+          "amount": 3260000,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -460218,
+          "amount": -436354,
           "statement": "II. 매출원가"
         },
         {
@@ -2054,7 +2221,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 2516976,
+          "amount": 2730719,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -2069,37 +2236,47 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
-          "label": "광고비 - 메타/구글 (광고선전비)",
-          "amount": -2049568,
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
+          "amount": -2154406,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - SNA_아이로아뷰티 (10%)",
+          "amount": -10081,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - 쇼어드랩스_에이나인글로벌_대행_광고계정 (15%)",
+          "amount": -80331,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 239044,
+          "amount": 257538,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 239044,
+          "amount": 257538,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 239044,
+          "amount": 257538,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 239044,
+          "amount": 257538,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
         }
       ],
-      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
     }
   },
   {
@@ -2160,8 +2337,10 @@
     },
     "cafe24": {
       "order_count": 50,
-      "total_revenue": 4452239,
-      "paid_order_count": 49
+      "total_revenue": 4549500,
+      "paid_order_count": 49,
+      "actual_paid_revenue": 4452239,
+      "point_revenue": 97261
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -2315,31 +2494,47 @@
     ],
     "cfo": {
       "units_approx": 49,
-      "net_revenue": 4047490,
-      "main_cost_total": 593439,
+      "net_revenue": 4135909,
+      "main_cost_total": 562667,
       "other_cost_total": 119827,
-      "cogs_total": 713266,
-      "gross_profit": 3334224,
+      "cogs_total": 682494,
+      "gross_profit": 3453415,
       "shipping_total": 155909,
       "pg_fee_total": 141662,
       "manual_ad_spend": {},
-      "ad_spend_total": 2388002,
-      "sga_total": 2685573,
-      "contribution_margin": 648650,
+      "ad_spend_total": 2557048,
+      "late_refund_total": 0,
+      "agency_fee_total": 63107,
+      "agency_fee_detail": [
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 79021.0,
+          "rate_pct": 10,
+          "fee": 7902
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "spend": 368034.0,
+          "rate_pct": 15,
+          "fee": 55205
+        }
+      ],
+      "sga_total": 2917726,
+      "contribution_margin": 535689,
       "daily_fixed_allocated": 0,
-      "operating_profit": 648650,
-      "pretax_income": 648650,
-      "net_income": 648650,
-      "net_after_fixed": 648650,
+      "operating_profit": 535689,
+      "pretax_income": 535689,
+      "net_income": 535689,
+      "net_after_fixed": 535689,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 4047490,
+          "amount": 4135909,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -593439,
+          "amount": -562667,
           "statement": "II. 매출원가"
         },
         {
@@ -2349,7 +2544,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 3334224,
+          "amount": 3453415,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -2364,37 +2559,47 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
-          "label": "광고비 - 메타/구글 (광고선전비)",
-          "amount": -2388002,
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
+          "amount": -2557048,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - SNA_아이로아뷰티 (10%)",
+          "amount": -7902,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - 쇼어드랩스_에이나인글로벌_대행_광고계정 (15%)",
+          "amount": -55205,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 648650,
+          "amount": 535689,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 648650,
+          "amount": 535689,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 648650,
+          "amount": 535689,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 648650,
+          "amount": 535689,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
         }
       ],
-      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
     }
   },
   {
@@ -2455,8 +2660,10 @@
     },
     "cafe24": {
       "order_count": 80,
-      "total_revenue": 6774406,
-      "paid_order_count": 75
+      "total_revenue": 7152500,
+      "paid_order_count": 75,
+      "actual_paid_revenue": 6774406,
+      "point_revenue": 378094
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -2610,31 +2817,47 @@
     ],
     "cfo": {
       "units_approx": 78,
-      "net_revenue": 6394005,
-      "main_cost_total": 944658,
+      "net_revenue": 6737727,
+      "main_cost_total": 895674,
       "other_cost_total": 190745,
-      "cogs_total": 1135403,
-      "gross_profit": 5258602,
+      "cogs_total": 1086419,
+      "gross_profit": 5651308,
       "shipping_total": 248182,
       "pg_fee_total": 223790,
       "manual_ad_spend": {},
-      "ad_spend_total": 3284920,
-      "sga_total": 3756892,
-      "contribution_margin": 1501710,
+      "ad_spend_total": 3383706,
+      "late_refund_total": 0,
+      "agency_fee_total": 74139,
+      "agency_fee_detail": [
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 137442.0,
+          "rate_pct": 10,
+          "fee": 13744
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "spend": 402635.0,
+          "rate_pct": 15,
+          "fee": 60395
+        }
+      ],
+      "sga_total": 3929817,
+      "contribution_margin": 1721491,
       "daily_fixed_allocated": 0,
-      "operating_profit": 1501710,
-      "pretax_income": 1501710,
-      "net_income": 1501710,
-      "net_after_fixed": 1501710,
+      "operating_profit": 1721491,
+      "pretax_income": 1721491,
+      "net_income": 1721491,
+      "net_after_fixed": 1721491,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 6394005,
+          "amount": 6737727,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -944658,
+          "amount": -895674,
           "statement": "II. 매출원가"
         },
         {
@@ -2644,7 +2867,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 5258602,
+          "amount": 5651308,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -2659,37 +2882,47 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
-          "label": "광고비 - 메타/구글 (광고선전비)",
-          "amount": -3284920,
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
+          "amount": -3383706,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - SNA_아이로아뷰티 (10%)",
+          "amount": -13744,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - 쇼어드랩스_에이나인글로벌_대행_광고계정 (15%)",
+          "amount": -60395,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 1501710,
+          "amount": 1721491,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 1501710,
+          "amount": 1721491,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 1501710,
+          "amount": 1721491,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 1501710,
+          "amount": 1721491,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
         }
       ],
-      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 환불/취소/반품 추가비용은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
     }
   },
   {
@@ -2750,8 +2983,10 @@
     },
     "cafe24": {
       "order_count": 77,
-      "total_revenue": 5993098,
-      "paid_order_count": 65
+      "total_revenue": 6181500,
+      "paid_order_count": 65,
+      "actual_paid_revenue": 5993098,
+      "point_revenue": 188402
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -3008,32 +3243,47 @@
     ],
     "cfo": {
       "units_approx": 68,
-      "net_revenue": 5690998,
-      "main_cost_total": 823548,
+      "net_revenue": 5862273,
+      "main_cost_total": 780844,
       "other_cost_total": 166291,
-      "cogs_total": 989839,
-      "gross_profit": 4701159,
+      "cogs_total": 947135,
+      "gross_profit": 4915138,
       "shipping_total": 216364,
       "pg_fee_total": 199185,
       "manual_ad_spend": {},
-      "ad_spend_total": 2253941,
+      "ad_spend_total": 2344992,
       "late_refund_total": 1790000,
-      "sga_total": 4459490,
-      "contribution_margin": 241670,
+      "agency_fee_total": 44465,
+      "agency_fee_detail": [
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 113939.0,
+          "rate_pct": 10,
+          "fee": 11394
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "spend": 220473.0,
+          "rate_pct": 15,
+          "fee": 33071
+        }
+      ],
+      "sga_total": 4595005,
+      "contribution_margin": 320133,
       "daily_fixed_allocated": 0,
-      "operating_profit": 241670,
-      "pretax_income": 241670,
-      "net_income": 241670,
-      "net_after_fixed": 241670,
+      "operating_profit": 320133,
+      "pretax_income": 320133,
+      "net_income": 320133,
+      "net_after_fixed": 320133,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 5690998,
+          "amount": 5862273,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -823548,
+          "amount": -780844,
           "statement": "II. 매출원가"
         },
         {
@@ -3043,7 +3293,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 4701159,
+          "amount": 4915138,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -3058,8 +3308,18 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
-          "label": "광고비 - 메타/구글 (광고선전비)",
-          "amount": -2253941,
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
+          "amount": -2344992,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - SNA_아이로아뷰티 (10%)",
+          "amount": -11394,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - 쇼어드랩스_에이나인글로벌_대행_광고계정 (15%)",
+          "amount": -33071,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
@@ -3069,25 +3329,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 241670,
+          "amount": 320133,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 241670,
+          "amount": 320133,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 241670,
+          "amount": 320133,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 241670,
+          "amount": 320133,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -3154,8 +3414,10 @@
     },
     "cafe24": {
       "order_count": 58,
-      "total_revenue": 5000170,
-      "paid_order_count": 54
+      "total_revenue": 5341500,
+      "paid_order_count": 54,
+      "actual_paid_revenue": 5000170,
+      "point_revenue": 341330
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -3330,11 +3592,11 @@
     ],
     "cfo": {
       "units_approx": 60,
-      "net_revenue": 5021973,
-      "main_cost_total": 726660,
+      "net_revenue": 5332273,
+      "main_cost_total": 688980,
       "other_cost_total": 146727,
-      "cogs_total": 873387,
-      "gross_profit": 4148585,
+      "cogs_total": 835707,
+      "gross_profit": 4496565,
       "shipping_total": 190909,
       "pg_fee_total": 175769,
       "manual_ad_spend": {},
@@ -3356,21 +3618,21 @@
         }
       ],
       "sga_total": 3643415,
-      "contribution_margin": 505170,
+      "contribution_margin": 853150,
       "daily_fixed_allocated": 0,
-      "operating_profit": 505170,
-      "pretax_income": 505170,
-      "net_income": 505170,
-      "net_after_fixed": 505170,
+      "operating_profit": 853150,
+      "pretax_income": 853150,
+      "net_income": 853150,
+      "net_after_fixed": 853150,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 5021973,
+          "amount": 5332273,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -726660,
+          "amount": -688980,
           "statement": "II. 매출원가"
         },
         {
@@ -3380,7 +3642,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 4148585,
+          "amount": 4496565,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -3416,25 +3678,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 505170,
+          "amount": 853150,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 505170,
+          "amount": 853150,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 505170,
+          "amount": 853150,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 505170,
+          "amount": 853150,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -3501,8 +3763,10 @@
     },
     "cafe24": {
       "order_count": 53,
-      "total_revenue": 4656987,
-      "paid_order_count": 50
+      "total_revenue": 4819500,
+      "paid_order_count": 50,
+      "actual_paid_revenue": 4656987,
+      "point_revenue": 162513
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -3672,11 +3936,11 @@
     ],
     "cfo": {
       "units_approx": 52,
-      "net_revenue": 4395443,
-      "main_cost_total": 629772,
+      "net_revenue": 4543182,
+      "main_cost_total": 597116,
       "other_cost_total": 127164,
-      "cogs_total": 756936,
-      "gross_profit": 3638507,
+      "cogs_total": 724280,
+      "gross_profit": 3818902,
       "shipping_total": 165455,
       "pg_fee_total": 153840,
       "manual_ad_spend": {},
@@ -3698,21 +3962,21 @@
         }
       ],
       "sga_total": 2569004,
-      "contribution_margin": 1069503,
+      "contribution_margin": 1249898,
       "daily_fixed_allocated": 0,
-      "operating_profit": 1069503,
-      "pretax_income": 1069503,
-      "net_income": 1069503,
-      "net_after_fixed": 1069503,
+      "operating_profit": 1249898,
+      "pretax_income": 1249898,
+      "net_income": 1249898,
+      "net_after_fixed": 1249898,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 4395443,
+          "amount": 4543182,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -629772,
+          "amount": -597116,
           "statement": "II. 매출원가"
         },
         {
@@ -3722,7 +3986,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 3638507,
+          "amount": 3818902,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -3758,25 +4022,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 1069503,
+          "amount": 1249898,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 1069503,
+          "amount": 1249898,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 1069503,
+          "amount": 1249898,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 1069503,
+          "amount": 1249898,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -3843,8 +4107,10 @@
     },
     "cafe24": {
       "order_count": 53,
-      "total_revenue": 4671861,
-      "paid_order_count": 52
+      "total_revenue": 4835000,
+      "paid_order_count": 52,
+      "actual_paid_revenue": 4671861,
+      "point_revenue": 163139
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -4014,11 +4280,11 @@
     ],
     "cfo": {
       "units_approx": 59,
-      "net_revenue": 4813510,
-      "main_cost_total": 714549,
+      "net_revenue": 4961818,
+      "main_cost_total": 677497,
       "other_cost_total": 144282,
-      "cogs_total": 858831,
-      "gross_profit": 3954679,
+      "cogs_total": 821779,
+      "gross_profit": 4140039,
       "shipping_total": 187727,
       "pg_fee_total": 168473,
       "manual_ad_spend": {},
@@ -4040,21 +4306,21 @@
         }
       ],
       "sga_total": 2942496,
-      "contribution_margin": 1012183,
+      "contribution_margin": 1197543,
       "daily_fixed_allocated": 0,
-      "operating_profit": 1012183,
-      "pretax_income": 1012183,
-      "net_income": 1012183,
-      "net_after_fixed": 1012183,
+      "operating_profit": 1197543,
+      "pretax_income": 1197543,
+      "net_income": 1197543,
+      "net_after_fixed": 1197543,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 4813510,
+          "amount": 4961818,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -714549,
+          "amount": -677497,
           "statement": "II. 매출원가"
         },
         {
@@ -4064,7 +4330,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 3954679,
+          "amount": 4140039,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -4100,25 +4366,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 1012183,
+          "amount": 1197543,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 1012183,
+          "amount": 1197543,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 1012183,
+          "amount": 1197543,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 1012183,
+          "amount": 1197543,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -4185,8 +4451,10 @@
     },
     "cafe24": {
       "order_count": 48,
-      "total_revenue": 3677344,
-      "paid_order_count": 41
+      "total_revenue": 3877000,
+      "paid_order_count": 41,
+      "actual_paid_revenue": 3677344,
+      "point_revenue": 199656
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -4361,11 +4629,11 @@
     ],
     "cfo": {
       "units_approx": 46,
-      "net_revenue": 3747585,
-      "main_cost_total": 557106,
+      "net_revenue": 3929091,
+      "main_cost_total": 528218,
       "other_cost_total": 112491,
-      "cogs_total": 669597,
-      "gross_profit": 3077989,
+      "cogs_total": 640709,
+      "gross_profit": 3288382,
       "shipping_total": 146364,
       "pg_fee_total": 131165,
       "manual_ad_spend": {},
@@ -4387,21 +4655,21 @@
         }
       ],
       "sga_total": 3036228,
-      "contribution_margin": 41760,
+      "contribution_margin": 252154,
       "daily_fixed_allocated": 0,
-      "operating_profit": 41760,
-      "pretax_income": 41760,
-      "net_income": 41760,
-      "net_after_fixed": 41760,
+      "operating_profit": 252154,
+      "pretax_income": 252154,
+      "net_income": 252154,
+      "net_after_fixed": 252154,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 3747585,
+          "amount": 3929091,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -557106,
+          "amount": -528218,
           "statement": "II. 매출원가"
         },
         {
@@ -4411,7 +4679,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 3077989,
+          "amount": 3288382,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -4447,25 +4715,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 41760,
+          "amount": 252154,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 41760,
+          "amount": 252154,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 41760,
+          "amount": 252154,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 41760,
+          "amount": 252154,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -4532,8 +4800,10 @@
     },
     "cafe24": {
       "order_count": 46,
-      "total_revenue": 4289917,
-      "paid_order_count": 44
+      "total_revenue": 4488500,
+      "paid_order_count": 44,
+      "actual_paid_revenue": 4289917,
+      "point_revenue": 198583
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -4697,11 +4967,11 @@
     ],
     "cfo": {
       "units_approx": 46,
-      "net_revenue": 4048106,
-      "main_cost_total": 557106,
+      "net_revenue": 4228636,
+      "main_cost_total": 528218,
       "other_cost_total": 112491,
-      "cogs_total": 669597,
-      "gross_profit": 3378509,
+      "cogs_total": 640709,
+      "gross_profit": 3587927,
       "shipping_total": 146364,
       "pg_fee_total": 141684,
       "manual_ad_spend": {},
@@ -4723,21 +4993,21 @@
         }
       ],
       "sga_total": 2615162,
-      "contribution_margin": 763347,
+      "contribution_margin": 972765,
       "daily_fixed_allocated": 0,
-      "operating_profit": 763347,
-      "pretax_income": 763347,
-      "net_income": 763347,
-      "net_after_fixed": 763347,
+      "operating_profit": 972765,
+      "pretax_income": 972765,
+      "net_income": 972765,
+      "net_after_fixed": 972765,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 4048106,
+          "amount": 4228636,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -557106,
+          "amount": -528218,
           "statement": "II. 매출원가"
         },
         {
@@ -4747,7 +5017,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 3378509,
+          "amount": 3587927,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -4778,25 +5048,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 763347,
+          "amount": 972765,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 763347,
+          "amount": 972765,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 763347,
+          "amount": 972765,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 763347,
+          "amount": 972765,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -4863,8 +5133,10 @@
     },
     "cafe24": {
       "order_count": 73,
-      "total_revenue": 6355463,
-      "paid_order_count": 69
+      "total_revenue": 6640500,
+      "paid_order_count": 69,
+      "actual_paid_revenue": 6355463,
+      "point_revenue": 285037
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -5028,11 +5300,11 @@
     ],
     "cfo": {
       "units_approx": 70,
-      "net_revenue": 5858603,
-      "main_cost_total": 847770,
+      "net_revenue": 6117727,
+      "main_cost_total": 803810,
       "other_cost_total": 171182,
-      "cogs_total": 1018952,
-      "gross_profit": 4839651,
+      "cogs_total": 974992,
+      "gross_profit": 5142735,
       "shipping_total": 222727,
       "pg_fee_total": 205051,
       "manual_ad_spend": {},
@@ -5054,21 +5326,21 @@
         }
       ],
       "sga_total": 3434499,
-      "contribution_margin": 1405152,
+      "contribution_margin": 1708236,
       "daily_fixed_allocated": 0,
-      "operating_profit": 1405152,
-      "pretax_income": 1405152,
-      "net_income": 1405152,
-      "net_after_fixed": 1405152,
+      "operating_profit": 1708236,
+      "pretax_income": 1708236,
+      "net_income": 1708236,
+      "net_after_fixed": 1708236,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 5858603,
+          "amount": 6117727,
           "statement": "I. 수익(매출액)"
         },
         {
           "label": "본품 원가 (중국 직수입)",
-          "amount": -847770,
+          "amount": -803810,
           "statement": "II. 매출원가"
         },
         {
@@ -5078,7 +5350,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 4839651,
+          "amount": 5142735,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -5109,25 +5381,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 1405152,
+          "amount": 1708236,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 1405152,
+          "amount": 1708236,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 1405152,
+          "amount": 1708236,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 1405152,
+          "amount": 1708236,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -5194,8 +5466,10 @@
     },
     "cafe24": {
       "order_count": 52,
-      "total_revenue": 4293163,
-      "paid_order_count": 47
+      "total_revenue": 4388500,
+      "paid_order_count": 47,
+      "actual_paid_revenue": 4293163,
+      "point_revenue": 95337
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -5326,11 +5600,11 @@
     },
     "cfo": {
       "units_approx": 52,
-      "net_revenue": 4295603,
+      "net_revenue": 4382273,
       "main_cost_total": 597116,
       "other_cost_total": 127164,
       "cogs_total": 724280,
-      "gross_profit": 3571323,
+      "gross_profit": 3657993,
       "shipping_total": 165455,
       "pg_fee_total": 150346,
       "manual_ad_spend": {},
@@ -5352,16 +5626,16 @@
         }
       ],
       "sga_total": 4620397,
-      "contribution_margin": -1049074,
+      "contribution_margin": -962404,
       "daily_fixed_allocated": 0,
-      "operating_profit": -1049074,
-      "pretax_income": -1049074,
-      "net_income": -1049074,
-      "net_after_fixed": -1049074,
+      "operating_profit": -962404,
+      "pretax_income": -962404,
+      "net_income": -962404,
+      "net_after_fixed": -962404,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 4295603,
+          "amount": 4382273,
           "statement": "I. 수익(매출액)"
         },
         {
@@ -5376,7 +5650,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 3571323,
+          "amount": 3657993,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -5412,25 +5686,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": -1049074,
+          "amount": -962404,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": -1049074,
+          "amount": -962404,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": -1049074,
+          "amount": -962404,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": -1049074,
+          "amount": -962404,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -5497,8 +5771,10 @@
     },
     "cafe24": {
       "order_count": 51,
-      "total_revenue": 4339861,
-      "paid_order_count": 46
+      "total_revenue": 4525500,
+      "paid_order_count": 46,
+      "actual_paid_revenue": 4339861,
+      "point_revenue": 185639
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -5673,11 +5949,11 @@
     ],
     "cfo": {
       "units_approx": 53,
-      "net_revenue": 4507237,
+      "net_revenue": 4676000,
       "main_cost_total": 608599,
       "other_cost_total": 129609,
       "cogs_total": 738208,
-      "gross_profit": 3769029,
+      "gross_profit": 3937792,
       "shipping_total": 168636,
       "pg_fee_total": 157753,
       "manual_ad_spend": {},
@@ -5699,16 +5975,16 @@
         }
       ],
       "sga_total": 2970687,
-      "contribution_margin": 798343,
+      "contribution_margin": 967105,
       "daily_fixed_allocated": 0,
-      "operating_profit": 798343,
-      "pretax_income": 798343,
-      "net_income": 798343,
-      "net_after_fixed": 798343,
+      "operating_profit": 967105,
+      "pretax_income": 967105,
+      "net_income": 967105,
+      "net_after_fixed": 967105,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 4507237,
+          "amount": 4676000,
           "statement": "I. 수익(매출액)"
         },
         {
@@ -5723,7 +5999,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 3769029,
+          "amount": 3937792,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -5759,25 +6035,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 798343,
+          "amount": 967105,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 798343,
+          "amount": 967105,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 798343,
+          "amount": 967105,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 798343,
+          "amount": 967105,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -5844,8 +6120,10 @@
     },
     "cafe24": {
       "order_count": 49,
-      "total_revenue": 4457350,
-      "paid_order_count": 47
+      "total_revenue": 4570500,
+      "paid_order_count": 47,
+      "actual_paid_revenue": 4457350,
+      "point_revenue": 113150
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -6050,11 +6328,11 @@
     ],
     "cfo": {
       "units_approx": 50,
-      "net_revenue": 4294864,
+      "net_revenue": 4397727,
       "main_cost_total": 574150,
       "other_cost_total": 122273,
       "cogs_total": 696423,
-      "gross_profit": 3598441,
+      "gross_profit": 3701305,
       "shipping_total": 159091,
       "pg_fee_total": 150320,
       "manual_ad_spend": {},
@@ -6076,16 +6354,16 @@
         }
       ],
       "sga_total": 2967710,
-      "contribution_margin": 630731,
+      "contribution_margin": 733595,
       "daily_fixed_allocated": 0,
-      "operating_profit": 630731,
-      "pretax_income": 630731,
-      "net_income": 630731,
-      "net_after_fixed": 630731,
+      "operating_profit": 733595,
+      "pretax_income": 733595,
+      "net_income": 733595,
+      "net_after_fixed": 733595,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 4294864,
+          "amount": 4397727,
           "statement": "I. 수익(매출액)"
         },
         {
@@ -6100,7 +6378,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 3598441,
+          "amount": 3701305,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -6136,25 +6414,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 630731,
+          "amount": 733595,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 630731,
+          "amount": 733595,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 630731,
+          "amount": 733595,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 630731,
+          "amount": 733595,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -6221,8 +6499,10 @@
     },
     "cafe24": {
       "order_count": 55,
-      "total_revenue": 4565500,
-      "paid_order_count": 50
+      "total_revenue": 5040000,
+      "paid_order_count": 50,
+      "actual_paid_revenue": 4565500,
+      "point_revenue": 474500
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -6386,11 +6666,11 @@
     ],
     "cfo": {
       "units_approx": 53,
-      "net_revenue": 4393182,
+      "net_revenue": 4824545,
       "main_cost_total": 608599,
       "other_cost_total": 129609,
       "cogs_total": 738208,
-      "gross_profit": 3654974,
+      "gross_profit": 4086337,
       "shipping_total": 168636,
       "pg_fee_total": 153761,
       "manual_ad_spend": {},
@@ -6406,16 +6686,16 @@
         }
       ],
       "sga_total": 2771103,
-      "contribution_margin": 883871,
+      "contribution_margin": 1315234,
       "daily_fixed_allocated": 0,
-      "operating_profit": 883871,
-      "pretax_income": 883871,
-      "net_income": 883871,
-      "net_after_fixed": 883871,
+      "operating_profit": 1315234,
+      "pretax_income": 1315234,
+      "net_income": 1315234,
+      "net_after_fixed": 1315234,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 4393182,
+          "amount": 4824545,
           "statement": "I. 수익(매출액)"
         },
         {
@@ -6430,7 +6710,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 3654974,
+          "amount": 4086337,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -6456,25 +6736,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 883871,
+          "amount": 1315234,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 883871,
+          "amount": 1315234,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 883871,
+          "amount": 1315234,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 883871,
+          "amount": 1315234,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -6541,8 +6821,10 @@
     },
     "cafe24": {
       "order_count": 63,
-      "total_revenue": 5300278,
-      "paid_order_count": 56
+      "total_revenue": 5969500,
+      "paid_order_count": 56,
+      "actual_paid_revenue": 5300278,
+      "point_revenue": 669222
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -6587,11 +6869,11 @@
     },
     "cfo": {
       "units_approx": 59,
-      "net_revenue": 5058435,
+      "net_revenue": 5666818,
       "main_cost_total": 677497,
       "other_cost_total": 144282,
       "cogs_total": 821779,
-      "gross_profit": 4236656,
+      "gross_profit": 4845039,
       "shipping_total": 187727,
       "pg_fee_total": 177045,
       "manual_ad_spend": {},
@@ -6607,16 +6889,16 @@
         }
       ],
       "sga_total": 2501936,
-      "contribution_margin": 1734719,
+      "contribution_margin": 2343103,
       "daily_fixed_allocated": 0,
-      "operating_profit": 1734719,
-      "pretax_income": 1734719,
-      "net_income": 1734719,
-      "net_after_fixed": 1734719,
+      "operating_profit": 2343103,
+      "pretax_income": 2343103,
+      "net_income": 2343103,
+      "net_after_fixed": 2343103,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 5058435,
+          "amount": 5666818,
           "statement": "I. 수익(매출액)"
         },
         {
@@ -6631,7 +6913,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 4236656,
+          "amount": 4845039,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -6657,25 +6939,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 1734719,
+          "amount": 2343103,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 1734719,
+          "amount": 2343103,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 1734719,
+          "amount": 2343103,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 1734719,
+          "amount": 2343103,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -6742,8 +7024,10 @@
     },
     "cafe24": {
       "order_count": 55,
-      "total_revenue": 4834399,
-      "paid_order_count": 53
+      "total_revenue": 5048500,
+      "paid_order_count": 53,
+      "actual_paid_revenue": 4834399,
+      "point_revenue": 214101
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -6907,11 +7191,11 @@
     ],
     "cfo": {
       "units_approx": 57,
-      "net_revenue": 4713999,
+      "net_revenue": 4908636,
       "main_cost_total": 654531,
       "other_cost_total": 139391,
       "cogs_total": 793922,
-      "gross_profit": 3920077,
+      "gross_profit": 4114714,
       "shipping_total": 181364,
       "pg_fee_total": 164990,
       "manual_ad_spend": {},
@@ -6927,16 +7211,16 @@
         }
       ],
       "sga_total": 2031182,
-      "contribution_margin": 1888896,
+      "contribution_margin": 2083533,
       "daily_fixed_allocated": 0,
-      "operating_profit": 1888896,
-      "pretax_income": 1888896,
-      "net_income": 1888896,
-      "net_after_fixed": 1888896,
+      "operating_profit": 2083533,
+      "pretax_income": 2083533,
+      "net_income": 2083533,
+      "net_after_fixed": 2083533,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 4713999,
+          "amount": 4908636,
           "statement": "I. 수익(매출액)"
         },
         {
@@ -6951,7 +7235,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 3920077,
+          "amount": 4114714,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -6977,25 +7261,25 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 1888896,
+          "amount": 2083533,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 1888896,
+          "amount": 2083533,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 1888896,
+          "amount": 2083533,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 1888896,
+          "amount": 2083533,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -7062,8 +7346,10 @@
     },
     "cafe24": {
       "order_count": 72,
-      "total_revenue": 6652328,
-      "paid_order_count": 70
+      "total_revenue": 6749000,
+      "paid_order_count": 70,
+      "actual_paid_revenue": 6652328,
+      "point_revenue": 96672
     },
     "coupang": {
       "error": "HTTP Error 403: Forbidden"
@@ -7227,11 +7513,11 @@
     ],
     "cfo": {
       "units_approx": 72,
-      "net_revenue": 6209389,
+      "net_revenue": 6297273,
       "main_cost_total": 826776,
       "other_cost_total": 176073,
       "cogs_total": 1002849,
-      "gross_profit": 5206540,
+      "gross_profit": 5294424,
       "shipping_total": 229091,
       "pg_fee_total": 217329,
       "manual_ad_spend": {},
@@ -7247,16 +7533,16 @@
         }
       ],
       "sga_total": 2882477,
-      "contribution_margin": 2324063,
+      "contribution_margin": 2411947,
       "daily_fixed_allocated": 0,
-      "operating_profit": 2324063,
-      "pretax_income": 2324063,
-      "net_income": 2324063,
-      "net_after_fixed": 2324063,
+      "operating_profit": 2411947,
+      "pretax_income": 2411947,
+      "net_income": 2411947,
+      "net_after_fixed": 2411947,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
-          "amount": 6209389,
+          "amount": 6297273,
           "statement": "I. 수익(매출액)"
         },
         {
@@ -7271,7 +7557,7 @@
         },
         {
           "label": "매출총이익",
-          "amount": 5206540,
+          "amount": 5294424,
           "statement": "III. 매출총이익",
           "subtotal": true
         },
@@ -7297,25 +7583,439 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 2324063,
+          "amount": 2411947,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 2324063,
+          "amount": 2411947,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 2324063,
+          "amount": 2411947,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 2324063,
+          "amount": 2411947,
+          "statement": "XIII. 당기순이익(손실)",
+          "subtotal": true,
+          "final": true
+        }
+      ],
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "fetched_at": "2026-09-29T09:01:25.606288",
+    "meta": {
+      "spend": 2011711.0,
+      "impressions": 97155,
+      "clicks": 4188,
+      "cpm": 20706.201430703517,
+      "ctr": 4.310637640883125,
+      "cpc": 480.3512416427889,
+      "initiate_checkout": 461.0,
+      "purchases": 62.0,
+      "purchase_value": 5842000.0,
+      "cpa": 32446.951612903227,
+      "direct_roas": 2.9039956534512164,
+      "by_account": [
+        {
+          "label": "\\meta_ads_api.json",
+          "spend": 1901859.0,
+          "impressions": 93616,
+          "clicks": 4091,
+          "initiate_checkout": 433.0,
+          "purchases": 58.0,
+          "purchase_value": 5492000.0
+        },
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 109852.0,
+          "impressions": 3539,
+          "clicks": 97,
+          "initiate_checkout": 28.0,
+          "purchases": 4.0,
+          "purchase_value": 350000.0
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "spend": 0.0,
+          "impressions": 0,
+          "clicks": 0,
+          "initiate_checkout": 0,
+          "purchases": 0,
+          "purchase_value": 0
+        }
+      ]
+    },
+    "google_ads": {
+      "spend": 107171.0,
+      "impressions": 893,
+      "clicks": 36,
+      "ctr": 0.040313549832026875,
+      "cpc": 2976.972222222222,
+      "conversions": 2.0,
+      "conversions_value": 87500.0,
+      "cpa": 53585.5,
+      "direct_roas": 0.8164522118856781
+    },
+    "cafe24": {
+      "order_count": 75,
+      "total_revenue": 7019000,
+      "paid_order_count": 74,
+      "actual_paid_revenue": 6937693,
+      "point_revenue": 81307,
+      "analytics_total": 7106500
+    },
+    "coupang": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "smartstore": {
+      "order_count": 1,
+      "total_revenue": 89000,
+      "paid_order_count": 1
+    },
+    "cafe24_funnel": {
+      "visitors": 5096,
+      "product_views": 4881,
+      "cart_adds": 140,
+      "checkout_starts": 118,
+      "orders_completed": 74,
+      "payments_completed": 74
+    },
+    "cafe24_late_refunds": {
+      "same_day_count": 1,
+      "same_day_amount": 87500,
+      "late_count": 17,
+      "late_amount": 1460500,
+      "items": [
+        {
+          "amount": 84000,
+          "order_date": "2026-09-07",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 84000,
+          "order_date": "2026-09-15",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 72500,
+          "order_date": "2026-09-23",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-24",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-24",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-25",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-25",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-25",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-26",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-26",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-26",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-27",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 82500,
+          "order_date": "2026-09-27",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-27",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-27",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-27",
+          "refund_completed_date": "2026-09-28"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-27",
+          "refund_completed_date": "2026-09-28"
+        }
+      ]
+    },
+    "naver_ads": {
+      "error": "session_expired (네이버 재로그인 필요)"
+    },
+    "posthog_site": {
+      "label": "자사몰",
+      "avg_dwell_sec": 88.8,
+      "avg_dwell_sec_baseline_7d": 89.6,
+      "rageclicks": 135
+    },
+    "posthog_blog": {
+      "label": "블로그랜딩",
+      "avg_dwell_sec": 439.4,
+      "avg_dwell_sec_baseline_7d": 338.9,
+      "rageclicks": 1
+    },
+    "blog_posts": [
+      {
+        "post": "post1",
+        "today": {
+          "views": 21,
+          "sessions": 19,
+          "avg_dwell_sec": 153.1,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 10,
+          "sessions": 10,
+          "avg_dwell_sec": 18.0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 14.7,
+          "sessions": 14.3,
+          "avg_dwell_sec": 79.3,
+          "clicks": 0.7,
+          "click_rate_pct": 5.0
+        }
+      },
+      {
+        "post": "post2",
+        "today": {
+          "views": 15,
+          "sessions": 17,
+          "avg_dwell_sec": 222.5,
+          "clicks": 3,
+          "click_rate_pct": 17.6
+        },
+        "yesterday": {
+          "views": 18,
+          "sessions": 21,
+          "avg_dwell_sec": 75.1,
+          "clicks": 2,
+          "click_rate_pct": 9.5
+        },
+        "week_avg": {
+          "views": 11.7,
+          "sessions": 14.3,
+          "avg_dwell_sec": 119.2,
+          "clicks": 1.6,
+          "click_rate_pct": 11.0
+        }
+      },
+      {
+        "post": "post3",
+        "today": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 0.0,
+          "sessions": 0.0,
+          "avg_dwell_sec": 0,
+          "clicks": 0.0,
+          "click_rate_pct": 0.0
+        }
+      },
+      {
+        "post": "post4",
+        "today": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 0.1,
+          "sessions": 0.1,
+          "avg_dwell_sec": 64.0,
+          "clicks": 0.1,
+          "click_rate_pct": 100.0
+        }
+      },
+      {
+        "post": "post5",
+        "today": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 0.0,
+          "sessions": 0.0,
+          "avg_dwell_sec": 0,
+          "clicks": 0.0,
+          "click_rate_pct": 0.0
+        }
+      }
+    ],
+    "cfo": {
+      "units_approx": 75,
+      "net_revenue": 6461818,
+      "main_cost_total": 861225,
+      "other_cost_total": 183409,
+      "cogs_total": 1044634,
+      "gross_profit": 5417184,
+      "shipping_total": 238636,
+      "pg_fee_total": 223577,
+      "manual_ad_spend": {},
+      "ad_spend_total": 2118882,
+      "late_refund_total": 1460500,
+      "agency_fee_total": 10985,
+      "agency_fee_detail": [
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 109852.0,
+          "rate_pct": 10,
+          "fee": 10985
+        }
+      ],
+      "sga_total": 4052580,
+      "contribution_margin": 1364604,
+      "daily_fixed_allocated": 0,
+      "operating_profit": 1364604,
+      "pretax_income": 1364604,
+      "net_income": 1364604,
+      "net_after_fixed": 1364604,
+      "line_items": [
+        {
+          "label": "매출액 (순매출, VAT제외)",
+          "amount": 6461818,
+          "statement": "I. 수익(매출액)"
+        },
+        {
+          "label": "본품 원가 (중국 직수입)",
+          "amount": -861225,
+          "statement": "II. 매출원가"
+        },
+        {
+          "label": "부자재 원가 (괄사·마사지젤)",
+          "amount": -183409,
+          "statement": "II. 매출원가"
+        },
+        {
+          "label": "매출총이익",
+          "amount": 5417184,
+          "statement": "III. 매출총이익",
+          "subtotal": true
+        },
+        {
+          "label": "택배비 (지급운임)",
+          "amount": -238636,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "PG 수수료 (지급수수료)",
+          "amount": -223577,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
+          "amount": -2118882,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - SNA_아이로아뷰티 (10%)",
+          "amount": -10985,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "지연 환불 - 취소·반품 (17건, 이전 날짜 주문 · 매출액 미차감)",
+          "amount": -1460500,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
+          "amount": 1364604,
+          "statement": "관리회계",
+          "subtotal": true
+        },
+        {
+          "label": "영업이익(손실)",
+          "amount": 1364604,
+          "statement": "V. 영업이익(손실)",
+          "subtotal": true
+        },
+        {
+          "label": "법인세비용차감전순이익(손실)",
+          "amount": 1364604,
+          "statement": "XI. 법인세비용차감전순이익(손실)",
+          "subtotal": true
+        },
+        {
+          "label": "당기순이익(손실)",
+          "amount": 1364604,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
