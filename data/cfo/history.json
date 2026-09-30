@@ -4397,17 +4397,17 @@
     "date": "2026-09-18",
     "fetched_at": "2026-09-19T09:01:40.301183",
     "meta": {
-      "spend": 2363031.0,
-      "impressions": 86721,
-      "clicks": 3548,
-      "cpm": 27248.65949424015,
-      "ctr": 4.091281235225608,
-      "cpc": 666.0177564825253,
+      "spend": 2368974.1764687337,
+      "impressions": 86915,
+      "clicks": 3553,
+      "cpm": 27256.217873424997,
+      "ctr": 4.087901973192199,
+      "cpc": 666.7532160058355,
       "initiate_checkout": 446.0,
       "purchases": 42.0,
       "purchase_value": 3782500.0,
-      "cpa": 56262.642857142855,
-      "direct_roas": 1.6006984250312417,
+      "cpa": 56404.147058779374,
+      "direct_roas": 1.5966826644089096,
       "by_account": [
         {
           "label": "\\meta_ads_api.json",
@@ -4435,6 +4435,17 @@
           "initiate_checkout": 55.0,
           "purchases": 4.0,
           "purchase_value": 345000.0
+        },
+        {
+          "label": "빌더스",
+          "currency": "USD",
+          "fx_rate": 1372.56,
+          "spend": 5943.1764687336,
+          "impressions": 194,
+          "clicks": 5,
+          "initiate_checkout": 0,
+          "purchases": 0,
+          "purchase_value": 0.0
         }
       ]
     },
@@ -4637,9 +4648,9 @@
       "shipping_total": 146364,
       "pg_fee_total": 131165,
       "manual_ad_spend": {},
-      "ad_spend_total": 2522778,
+      "ad_spend_total": 2528721,
       "late_refund_total": 175000,
-      "agency_fee_total": 60921,
+      "agency_fee_total": 61516,
       "agency_fee_detail": [
         {
           "label": "SNA_아이로아뷰티",
@@ -4652,15 +4663,21 @@
           "spend": 351755.0,
           "rate_pct": 15,
           "fee": 52763
+        },
+        {
+          "label": "빌더스",
+          "spend": 5943.1764687336,
+          "rate_pct": 10,
+          "fee": 594
         }
       ],
-      "sga_total": 3036228,
-      "contribution_margin": 252154,
+      "sga_total": 3042766,
+      "contribution_margin": 245616,
       "daily_fixed_allocated": 0,
-      "operating_profit": 252154,
-      "pretax_income": 252154,
-      "net_income": 252154,
-      "net_after_fixed": 252154,
+      "operating_profit": 245616,
+      "pretax_income": 245616,
+      "net_income": 245616,
+      "net_after_fixed": 245616,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
@@ -4695,7 +4712,7 @@
         },
         {
           "label": "광고비 - 메타/구글/네이버 (광고선전비)",
-          "amount": -2522778,
+          "amount": -2528721,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
@@ -4709,31 +4726,36 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
+          "label": "광고대행 수수료 - 빌더스 (10%)",
+          "amount": -594,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
           "label": "지연 환불 - 취소·반품 (2건, 이전 날짜 주문 · 매출액 미차감)",
           "amount": -175000,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 252154,
+          "amount": 245616,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 252154,
+          "amount": 245616,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 252154,
+          "amount": 245616,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 252154,
+          "amount": 245616,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -4746,17 +4768,17 @@
     "date": "2026-09-19",
     "fetched_at": "2026-09-20T09:01:54.833124",
     "meta": {
-      "spend": 2239742.0,
-      "impressions": 89304,
-      "clicks": 3630,
-      "cpm": 25079.974021320435,
-      "ctr": 4.064767535608707,
-      "cpc": 617.0088154269972,
-      "initiate_checkout": 408.0,
+      "spend": 2378658.602863863,
+      "impressions": 93965,
+      "clicks": 3734,
+      "cpm": 25314.304292703273,
+      "ctr": 3.9738200393763634,
+      "cpc": 637.0269423845375,
+      "initiate_checkout": 423.0,
       "purchases": 44.0,
       "purchase_value": 4308500.0,
-      "cpa": 50903.22727272727,
-      "direct_roas": 1.923659064302942,
+      "cpa": 54060.42279236053,
+      "direct_roas": 1.8113149969535947,
       "by_account": [
         {
           "label": "\\meta_ads_api.json",
@@ -4784,6 +4806,17 @@
           "initiate_checkout": 53.0,
           "purchases": 2.0,
           "purchase_value": 175000.0
+        },
+        {
+          "label": "빌더스",
+          "currency": "USD",
+          "fx_rate": 1372.56,
+          "spend": 138916.6028638632,
+          "impressions": 4661,
+          "clicks": 104,
+          "initiate_checkout": 15.0,
+          "purchases": 0,
+          "purchase_value": 0.0
         }
       ]
     },
@@ -4975,9 +5008,9 @@
       "shipping_total": 146364,
       "pg_fee_total": 141684,
       "manual_ad_spend": {},
-      "ad_spend_total": 2277077,
+      "ad_spend_total": 2415994,
       "late_refund_total": 0,
-      "agency_fee_total": 50038,
+      "agency_fee_total": 63930,
       "agency_fee_detail": [
         {
           "label": "SNA_아이로아뷰티",
@@ -4990,15 +5023,21 @@
           "spend": 279824.0,
           "rate_pct": 15,
           "fee": 41974
+        },
+        {
+          "label": "빌더스",
+          "spend": 138916.6028638632,
+          "rate_pct": 10,
+          "fee": 13892
         }
       ],
-      "sga_total": 2615162,
-      "contribution_margin": 972765,
+      "sga_total": 2767971,
+      "contribution_margin": 819956,
       "daily_fixed_allocated": 0,
-      "operating_profit": 972765,
-      "pretax_income": 972765,
-      "net_income": 972765,
-      "net_after_fixed": 972765,
+      "operating_profit": 819956,
+      "pretax_income": 819956,
+      "net_income": 819956,
+      "net_after_fixed": 819956,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
@@ -5033,7 +5072,7 @@
         },
         {
           "label": "광고비 - 메타/구글/네이버 (광고선전비)",
-          "amount": -2277077,
+          "amount": -2415994,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
@@ -5047,26 +5086,31 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
+          "label": "광고대행 수수료 - 빌더스 (10%)",
+          "amount": -13892,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 972765,
+          "amount": 819956,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 972765,
+          "amount": 819956,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 972765,
+          "amount": 819956,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 972765,
+          "amount": 819956,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -5079,17 +5123,17 @@
     "date": "2026-09-20",
     "fetched_at": "2026-09-21T09:01:59.816894",
     "meta": {
-      "spend": 2877124.0,
-      "impressions": 120531,
-      "clicks": 4717,
-      "cpm": 23870.406783317154,
-      "ctr": 3.9135160249230485,
-      "cpc": 609.9478482086072,
-      "initiate_checkout": 544.0,
-      "purchases": 66.0,
-      "purchase_value": 6077984.0,
-      "cpa": 43592.78787878788,
-      "direct_roas": 2.112520697752339,
+      "spend": 3012183.714670528,
+      "impressions": 124009,
+      "clicks": 4814,
+      "cpm": 24290.041163710117,
+      "ctr": 3.881976308171181,
+      "cpc": 625.7132768322659,
+      "initiate_checkout": 561.0,
+      "purchases": 69.0,
+      "purchase_value": 6333115.095152009,
+      "cpa": 43654.83644450041,
+      "direct_roas": 2.1024996132563993,
       "by_account": [
         {
           "label": "\\meta_ads_api.json",
@@ -5117,6 +5161,17 @@
           "initiate_checkout": 49.0,
           "purchases": 5.0,
           "purchase_value": 444000.0
+        },
+        {
+          "label": "빌더스",
+          "currency": "USD",
+          "fx_rate": 1372.56,
+          "spend": 135059.71467052802,
+          "impressions": 3478,
+          "clicks": 97,
+          "initiate_checkout": 17.0,
+          "purchases": 3.0,
+          "purchase_value": 255131.0951520096
         }
       ]
     },
@@ -5308,9 +5363,9 @@
       "shipping_total": 222727,
       "pg_fee_total": 205051,
       "manual_ad_spend": {},
-      "ad_spend_total": 2949665,
+      "ad_spend_total": 3084725,
       "late_refund_total": 0,
-      "agency_fee_total": 57056,
+      "agency_fee_total": 70562,
       "agency_fee_detail": [
         {
           "label": "SNA_아이로아뷰티",
@@ -5323,15 +5378,21 @@
           "spend": 297905.0,
           "rate_pct": 15,
           "fee": 44686
+        },
+        {
+          "label": "빌더스",
+          "spend": 135059.71467052802,
+          "rate_pct": 10,
+          "fee": 13506
         }
       ],
-      "sga_total": 3434499,
-      "contribution_margin": 1708236,
+      "sga_total": 3583065,
+      "contribution_margin": 1559670,
       "daily_fixed_allocated": 0,
-      "operating_profit": 1708236,
-      "pretax_income": 1708236,
-      "net_income": 1708236,
-      "net_after_fixed": 1708236,
+      "operating_profit": 1559670,
+      "pretax_income": 1559670,
+      "net_income": 1559670,
+      "net_after_fixed": 1559670,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
@@ -5366,7 +5427,7 @@
         },
         {
           "label": "광고비 - 메타/구글/네이버 (광고선전비)",
-          "amount": -2949665,
+          "amount": -3084725,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
@@ -5380,26 +5441,31 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
+          "label": "광고대행 수수료 - 빌더스 (10%)",
+          "amount": -13506,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 1708236,
+          "amount": 1559670,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 1708236,
+          "amount": 1559670,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 1708236,
+          "amount": 1559670,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 1708236,
+          "amount": 1559670,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -5412,17 +5478,17 @@
     "date": "2026-09-21",
     "fetched_at": "2026-09-22T09:01:57.116725",
     "meta": {
-      "spend": 2492632.0,
-      "impressions": 111641,
-      "clicks": 4493,
-      "cpm": 22327.209537714636,
-      "ctr": 4.024507125518403,
-      "cpc": 554.7812152236813,
-      "initiate_checkout": 536.0,
-      "purchases": 44.0,
-      "purchase_value": 3968000.0,
-      "cpa": 56650.72727272727,
-      "direct_roas": 1.5918916229912798,
+      "spend": 2582177.688873021,
+      "impressions": 113446,
+      "clicks": 4553,
+      "cpm": 22761.29338075402,
+      "ctr": 4.013363186009203,
+      "cpc": 567.1376430645774,
+      "initiate_checkout": 554.0,
+      "purchases": 48.0,
+      "purchase_value": 4314776.797881188,
+      "cpa": 53795.368518187934,
+      "direct_roas": 1.6709836880994628,
       "by_account": [
         {
           "label": "\\meta_ads_api.json",
@@ -5450,6 +5516,17 @@
           "initiate_checkout": 30.0,
           "purchases": 2.0,
           "purchase_value": 175000.0
+        },
+        {
+          "label": "빌더스",
+          "currency": "USD",
+          "fx_rate": 1372.56,
+          "spend": 89545.68887302079,
+          "impressions": 1805,
+          "clicks": 60,
+          "initiate_checkout": 18.0,
+          "purchases": 4.0,
+          "purchase_value": 346776.797881188
         }
       ]
     },
@@ -5608,9 +5685,9 @@
       "shipping_total": 165455,
       "pg_fee_total": 150346,
       "manual_ad_spend": {},
-      "ad_spend_total": 2658566,
+      "ad_spend_total": 2748112,
       "late_refund_total": 1608000,
-      "agency_fee_total": 38030,
+      "agency_fee_total": 46985,
       "agency_fee_detail": [
         {
           "label": "SNA_아이로아뷰티",
@@ -5623,15 +5700,21 @@
           "spend": 179316.0,
           "rate_pct": 15,
           "fee": 26897
+        },
+        {
+          "label": "빌더스",
+          "spend": 89545.68887302079,
+          "rate_pct": 10,
+          "fee": 8955
         }
       ],
-      "sga_total": 4620397,
-      "contribution_margin": -962404,
+      "sga_total": 4718897,
+      "contribution_margin": -1060904,
       "daily_fixed_allocated": 0,
-      "operating_profit": -962404,
-      "pretax_income": -962404,
-      "net_income": -962404,
-      "net_after_fixed": -962404,
+      "operating_profit": -1060904,
+      "pretax_income": -1060904,
+      "net_income": -1060904,
+      "net_after_fixed": -1060904,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
@@ -5666,7 +5749,7 @@
         },
         {
           "label": "광고비 - 메타/구글/네이버 (광고선전비)",
-          "amount": -2658566,
+          "amount": -2748112,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
@@ -5680,31 +5763,36 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
+          "label": "광고대행 수수료 - 빌더스 (10%)",
+          "amount": -8955,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
           "label": "지연 환불 - 취소·반품 (17건, 이전 날짜 주문 · 매출액 미차감)",
           "amount": -1608000,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": -962404,
+          "amount": -1060904,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": -962404,
+          "amount": -1060904,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": -962404,
+          "amount": -1060904,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": -962404,
+          "amount": -1060904,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -5717,17 +5805,17 @@
     "date": "2026-09-22",
     "fetched_at": "2026-09-23T09:02:27.147854",
     "meta": {
-      "spend": 2287190.0,
-      "impressions": 104387,
-      "clicks": 4179,
-      "cpm": 21910.67853276749,
-      "ctr": 4.0033720674030295,
-      "cpc": 547.3055754965303,
-      "initiate_checkout": 529.0,
-      "purchases": 42.0,
-      "purchase_value": 3886917.0,
-      "cpa": 54456.90476190476,
-      "direct_roas": 1.6994289936559708,
+      "spend": 2397598.571627005,
+      "impressions": 106246,
+      "clicks": 4243,
+      "cpm": 22566.483177032595,
+      "ctr": 3.9935621105735746,
+      "cpc": 565.071546459346,
+      "initiate_checkout": 538.0,
+      "purchases": 44.0,
+      "purchase_value": 4114487.128987536,
+      "cpa": 54490.87662788648,
+      "direct_roas": 1.7160867451616197,
       "by_account": [
         {
           "label": "\\meta_ads_api.json",
@@ -5755,6 +5843,17 @@
           "initiate_checkout": 41.0,
           "purchases": 5.0,
           "purchase_value": 479000.0
+        },
+        {
+          "label": "빌더스",
+          "currency": "USD",
+          "fx_rate": 1372.56,
+          "spend": 110408.5716270048,
+          "impressions": 1859,
+          "clicks": 64,
+          "initiate_checkout": 9.0,
+          "purchases": 2.0,
+          "purchase_value": 227570.128987536
         }
       ]
     },
@@ -5957,9 +6056,9 @@
       "shipping_total": 168636,
       "pg_fee_total": 157753,
       "manual_ad_spend": {},
-      "ad_spend_total": 2381805,
+      "ad_spend_total": 2492214,
       "late_refund_total": 226500,
-      "agency_fee_total": 35992,
+      "agency_fee_total": 47032,
       "agency_fee_detail": [
         {
           "label": "SNA_아이로아뷰티",
@@ -5972,15 +6071,21 @@
           "spend": 165516.0,
           "rate_pct": 15,
           "fee": 24827
+        },
+        {
+          "label": "빌더스",
+          "spend": 110408.5716270048,
+          "rate_pct": 10,
+          "fee": 11041
         }
       ],
-      "sga_total": 2970687,
-      "contribution_margin": 967105,
+      "sga_total": 3092135,
+      "contribution_margin": 845657,
       "daily_fixed_allocated": 0,
-      "operating_profit": 967105,
-      "pretax_income": 967105,
-      "net_income": 967105,
-      "net_after_fixed": 967105,
+      "operating_profit": 845657,
+      "pretax_income": 845657,
+      "net_income": 845657,
+      "net_after_fixed": 845657,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
@@ -6015,7 +6120,7 @@
         },
         {
           "label": "광고비 - 메타/구글/네이버 (광고선전비)",
-          "amount": -2381805,
+          "amount": -2492214,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
@@ -6029,31 +6134,36 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
+          "label": "광고대행 수수료 - 빌더스 (10%)",
+          "amount": -11041,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
           "label": "지연 환불 - 취소·반품 (2건, 이전 날짜 주문 · 매출액 미차감)",
           "amount": -226500,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 967105,
+          "amount": 845657,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 967105,
+          "amount": 845657,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 967105,
+          "amount": 845657,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 967105,
+          "amount": 845657,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -6066,17 +6176,17 @@
     "date": "2026-09-23",
     "fetched_at": "2026-09-24T09:02:01.786450",
     "meta": {
-      "spend": 1876141.0,
-      "impressions": 88731,
-      "clicks": 3737,
-      "cpm": 21144.14353495396,
-      "ctr": 4.21160586491756,
-      "cpc": 502.04468825260903,
-      "initiate_checkout": 507.0,
-      "purchases": 43.0,
-      "purchase_value": 4129500.0,
-      "cpa": 43631.186046511626,
-      "direct_roas": 2.2010605812676127,
+      "spend": 1975994.60002318,
+      "impressions": 90762,
+      "clicks": 3818,
+      "cpm": 21771.16634740508,
+      "ctr": 4.206606288975562,
+      "cpc": 517.5470403413253,
+      "initiate_checkout": 518.0,
+      "purchases": 44.0,
+      "purchase_value": 4212855.451950622,
+      "cpa": 44908.968182345,
+      "direct_roas": 2.132017694735199,
       "by_account": [
         {
           "label": "\\meta_ads_api.json",
@@ -6104,6 +6214,17 @@
           "initiate_checkout": 15.0,
           "purchases": 1.0,
           "purchase_value": 82500.0
+        },
+        {
+          "label": "빌더스",
+          "currency": "USD",
+          "fx_rate": 1372.56,
+          "spend": 99853.60002318,
+          "impressions": 2031,
+          "clicks": 81,
+          "initiate_checkout": 11.0,
+          "purchases": 1.0,
+          "purchase_value": 83355.45195062159
         }
       ]
     },
@@ -6336,9 +6457,9 @@
       "shipping_total": 159091,
       "pg_fee_total": 150320,
       "manual_ad_spend": {},
-      "ad_spend_total": 1926777,
+      "ad_spend_total": 2026630,
       "late_refund_total": 719000,
-      "agency_fee_total": 12522,
+      "agency_fee_total": 22507,
       "agency_fee_detail": [
         {
           "label": "SNA_아이로아뷰티",
@@ -6351,15 +6472,21 @@
           "spend": 29671.0,
           "rate_pct": 15,
           "fee": 4451
+        },
+        {
+          "label": "빌더스",
+          "spend": 99853.60002318,
+          "rate_pct": 10,
+          "fee": 9985
         }
       ],
-      "sga_total": 2967710,
-      "contribution_margin": 733595,
+      "sga_total": 3077548,
+      "contribution_margin": 623756,
       "daily_fixed_allocated": 0,
-      "operating_profit": 733595,
-      "pretax_income": 733595,
-      "net_income": 733595,
-      "net_after_fixed": 733595,
+      "operating_profit": 623756,
+      "pretax_income": 623756,
+      "net_income": 623756,
+      "net_after_fixed": 623756,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
@@ -6394,7 +6521,7 @@
         },
         {
           "label": "광고비 - 메타/구글/네이버 (광고선전비)",
-          "amount": -1926777,
+          "amount": -2026630,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
@@ -6408,31 +6535,36 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
+          "label": "광고대행 수수료 - 빌더스 (10%)",
+          "amount": -9985,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
           "label": "지연 환불 - 취소·반품 (8건, 이전 날짜 주문 · 매출액 미차감)",
           "amount": -719000,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 733595,
+          "amount": 623756,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 733595,
+          "amount": 623756,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 733595,
+          "amount": 623756,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 733595,
+          "amount": 623756,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -6445,17 +6577,17 @@
     "date": "2026-09-24",
     "fetched_at": "2026-09-25T09:01:45.197412",
     "meta": {
-      "spend": 2333670.0,
-      "impressions": 103582,
-      "clicks": 4676,
-      "cpm": 22529.6866250893,
-      "ctr": 4.514297850977969,
-      "cpc": 499.07399486740803,
-      "initiate_checkout": 586.0,
-      "purchases": 51.0,
-      "purchase_value": 4635000.0,
-      "cpa": 45758.23529411765,
-      "direct_roas": 1.986141999511499,
+      "spend": 2421445.088955084,
+      "impressions": 105617,
+      "clicks": 4742,
+      "cpm": 22926.66037621864,
+      "ctr": 4.48980751204825,
+      "cpc": 510.63793524991223,
+      "initiate_checkout": 601.0,
+      "purchases": 52.0,
+      "purchase_value": 4723804.507512024,
+      "cpa": 46566.25171067469,
+      "direct_roas": 1.950820412595219,
       "by_account": [
         {
           "label": "\\meta_ads_api.json",
@@ -6483,6 +6615,17 @@
           "initiate_checkout": 1.0,
           "purchases": 0,
           "purchase_value": 0
+        },
+        {
+          "label": "빌더스",
+          "currency": "USD",
+          "fx_rate": 1372.56,
+          "spend": 87775.08895508401,
+          "impressions": 2035,
+          "clicks": 66,
+          "initiate_checkout": 15.0,
+          "purchases": 1.0,
+          "purchase_value": 88804.507512024
         }
       ]
     },
@@ -6674,24 +6817,30 @@
       "shipping_total": 168636,
       "pg_fee_total": 153761,
       "manual_ad_spend": {},
-      "ad_spend_total": 2438521,
+      "ad_spend_total": 2526296,
       "late_refund_total": 0,
-      "agency_fee_total": 10184,
+      "agency_fee_total": 18962,
       "agency_fee_detail": [
         {
           "label": "SNA_아이로아뷰티",
           "spend": 101840.0,
           "rate_pct": 10,
           "fee": 10184
+        },
+        {
+          "label": "빌더스",
+          "spend": 87775.08895508401,
+          "rate_pct": 10,
+          "fee": 8778
         }
       ],
-      "sga_total": 2771103,
-      "contribution_margin": 1315234,
+      "sga_total": 2867656,
+      "contribution_margin": 1218681,
       "daily_fixed_allocated": 0,
-      "operating_profit": 1315234,
-      "pretax_income": 1315234,
-      "net_income": 1315234,
-      "net_after_fixed": 1315234,
+      "operating_profit": 1218681,
+      "pretax_income": 1218681,
+      "net_income": 1218681,
+      "net_after_fixed": 1218681,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
@@ -6726,7 +6875,7 @@
         },
         {
           "label": "광고비 - 메타/구글/네이버 (광고선전비)",
-          "amount": -2438521,
+          "amount": -2526296,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
@@ -6735,26 +6884,31 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
+          "label": "광고대행 수수료 - 빌더스 (10%)",
+          "amount": -8778,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 1315234,
+          "amount": 1218681,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 1315234,
+          "amount": 1218681,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 1315234,
+          "amount": 1218681,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 1315234,
+          "amount": 1218681,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -6767,17 +6921,17 @@
     "date": "2026-09-25",
     "fetched_at": "2026-09-26T09:01:23.529406",
     "meta": {
-      "spend": 2035845.0,
-      "impressions": 101343,
-      "clicks": 4387,
-      "cpm": 20088.659305526777,
-      "ctr": 4.328863365007943,
-      "cpc": 464.0631410987007,
-      "initiate_checkout": 577.0,
-      "purchases": 57.0,
-      "purchase_value": 5464500.0,
-      "cpa": 35716.57894736842,
-      "direct_roas": 2.6841434392107453,
+      "spend": 2128575.0236091553,
+      "impressions": 103728,
+      "clicks": 4469,
+      "cpm": 20520.737154954837,
+      "ctr": 4.308383464445472,
+      "cpc": 476.29783477492845,
+      "initiate_checkout": 583.0,
+      "purchases": 59.0,
+      "purchase_value": 5635877.601359371,
+      "cpa": 36077.54277303653,
+      "direct_roas": 2.6477232603262095,
       "by_account": [
         {
           "label": "\\meta_ads_api.json",
@@ -6805,6 +6959,17 @@
           "initiate_checkout": 0,
           "purchases": 0,
           "purchase_value": 0
+        },
+        {
+          "label": "빌더스",
+          "currency": "USD",
+          "fx_rate": 1372.56,
+          "spend": 92730.0236091552,
+          "impressions": 2385,
+          "clicks": 82,
+          "initiate_checkout": 6.0,
+          "purchases": 2.0,
+          "purchase_value": 171377.60135937118
         }
       ]
     },
@@ -6877,24 +7042,30 @@
       "shipping_total": 187727,
       "pg_fee_total": 177045,
       "manual_ad_spend": {},
-      "ad_spend_total": 2126832,
+      "ad_spend_total": 2219562,
       "late_refund_total": 0,
-      "agency_fee_total": 10332,
+      "agency_fee_total": 19605,
       "agency_fee_detail": [
         {
           "label": "SNA_아이로아뷰티",
           "spend": 103317.0,
           "rate_pct": 10,
           "fee": 10332
+        },
+        {
+          "label": "빌더스",
+          "spend": 92730.0236091552,
+          "rate_pct": 10,
+          "fee": 9273
         }
       ],
-      "sga_total": 2501936,
-      "contribution_margin": 2343103,
+      "sga_total": 2603939,
+      "contribution_margin": 2241100,
       "daily_fixed_allocated": 0,
-      "operating_profit": 2343103,
-      "pretax_income": 2343103,
-      "net_income": 2343103,
-      "net_after_fixed": 2343103,
+      "operating_profit": 2241100,
+      "pretax_income": 2241100,
+      "net_income": 2241100,
+      "net_after_fixed": 2241100,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
@@ -6929,7 +7100,7 @@
         },
         {
           "label": "광고비 - 메타/구글/네이버 (광고선전비)",
-          "amount": -2126832,
+          "amount": -2219562,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
@@ -6938,26 +7109,31 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
+          "label": "광고대행 수수료 - 빌더스 (10%)",
+          "amount": -9273,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 2343103,
+          "amount": 2241100,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 2343103,
+          "amount": 2241100,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 2343103,
+          "amount": 2241100,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 2343103,
+          "amount": 2241100,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -6970,17 +7146,17 @@
     "date": "2026-09-26",
     "fetched_at": "2026-09-27T09:02:37.966608",
     "meta": {
-      "spend": 1583451.0,
-      "impressions": 89789,
-      "clicks": 3790,
-      "cpm": 17635.244851819265,
-      "ctr": 4.221007027586898,
-      "cpc": 417.7970976253298,
-      "initiate_checkout": 442.0,
-      "purchases": 48.0,
-      "purchase_value": 4436848.0,
-      "cpa": 32988.5625,
-      "direct_roas": 2.8020115557728027,
+      "spend": 1653396.5595488832,
+      "impressions": 92289,
+      "clicks": 3870,
+      "cpm": 17915.42393512643,
+      "ctr": 4.193349153203524,
+      "cpc": 427.2342531134065,
+      "initiate_checkout": 462.0,
+      "purchases": 51.0,
+      "purchase_value": 4699788.950603995,
+      "cpa": 32419.540383311436,
+      "direct_roas": 2.8425055825000003,
       "by_account": [
         {
           "label": "\\meta_ads_api.json",
@@ -7008,6 +7184,17 @@
           "initiate_checkout": 0,
           "purchases": 0,
           "purchase_value": 0
+        },
+        {
+          "label": "빌더스",
+          "currency": "USD",
+          "fx_rate": 1372.56,
+          "spend": 69945.5595488832,
+          "impressions": 2500,
+          "clicks": 80,
+          "initiate_checkout": 20.0,
+          "purchases": 3.0,
+          "purchase_value": 262940.95060399437
         }
       ]
     },
@@ -7199,24 +7386,30 @@
       "shipping_total": 181364,
       "pg_fee_total": 164990,
       "manual_ad_spend": {},
-      "ad_spend_total": 1678189,
+      "ad_spend_total": 1748135,
       "late_refund_total": 0,
-      "agency_fee_total": 6639,
+      "agency_fee_total": 13634,
       "agency_fee_detail": [
         {
           "label": "SNA_아이로아뷰티",
           "spend": 66390.0,
           "rate_pct": 10,
           "fee": 6639
+        },
+        {
+          "label": "빌더스",
+          "spend": 69945.5595488832,
+          "rate_pct": 10,
+          "fee": 6995
         }
       ],
-      "sga_total": 2031182,
-      "contribution_margin": 2083533,
+      "sga_total": 2108122,
+      "contribution_margin": 2006592,
       "daily_fixed_allocated": 0,
-      "operating_profit": 2083533,
-      "pretax_income": 2083533,
-      "net_income": 2083533,
-      "net_after_fixed": 2083533,
+      "operating_profit": 2006592,
+      "pretax_income": 2006592,
+      "net_income": 2006592,
+      "net_after_fixed": 2006592,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
@@ -7251,7 +7444,7 @@
         },
         {
           "label": "광고비 - 메타/구글/네이버 (광고선전비)",
-          "amount": -1678189,
+          "amount": -1748135,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
@@ -7260,26 +7453,31 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
+          "label": "광고대행 수수료 - 빌더스 (10%)",
+          "amount": -6995,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 2083533,
+          "amount": 2006592,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 2083533,
+          "amount": 2006592,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 2083533,
+          "amount": 2006592,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 2083533,
+          "amount": 2006592,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -7292,17 +7490,17 @@
     "date": "2026-09-27",
     "fetched_at": "2026-09-28T09:02:02.240740",
     "meta": {
-      "spend": 2346437.0,
-      "impressions": 121547,
-      "clicks": 5157,
-      "cpm": 19304.7709939365,
-      "ctr": 4.24280319547171,
-      "cpc": 455.0003878223774,
-      "initiate_checkout": 601.0,
-      "purchases": 65.0,
-      "purchase_value": 6205500.0,
-      "cpa": 36099.03076923077,
-      "direct_roas": 2.6446480344454164,
+      "spend": 2435021.898219877,
+      "impressions": 124233,
+      "clicks": 5234,
+      "cpm": 19600.443507118693,
+      "ctr": 4.213051282670466,
+      "cpc": 465.23154341228064,
+      "initiate_checkout": 613.0,
+      "purchases": 67.0,
+      "purchase_value": 6377357.996685944,
+      "cpa": 36343.61042119219,
+      "direct_roas": 2.6190146385739332,
       "by_account": [
         {
           "label": "\\meta_ads_api.json",
@@ -7330,6 +7528,17 @@
           "initiate_checkout": 0,
           "purchases": 1.0,
           "purchase_value": 87500.0
+        },
+        {
+          "label": "빌더스",
+          "currency": "USD",
+          "fx_rate": 1372.56,
+          "spend": 88584.8982198768,
+          "impressions": 2686,
+          "clicks": 77,
+          "initiate_checkout": 12.0,
+          "purchases": 2.0,
+          "purchase_value": 171857.9966859432
         }
       ]
     },
@@ -7521,24 +7730,30 @@
       "shipping_total": 229091,
       "pg_fee_total": 217329,
       "manual_ad_spend": {},
-      "ad_spend_total": 2423228,
+      "ad_spend_total": 2511813,
       "late_refund_total": 0,
-      "agency_fee_total": 12830,
+      "agency_fee_total": 21688,
       "agency_fee_detail": [
         {
           "label": "SNA_아이로아뷰티",
           "spend": 128297.0,
           "rate_pct": 10,
           "fee": 12830
+        },
+        {
+          "label": "빌더스",
+          "spend": 88584.8982198768,
+          "rate_pct": 10,
+          "fee": 8858
         }
       ],
-      "sga_total": 2882477,
-      "contribution_margin": 2411947,
+      "sga_total": 2979920,
+      "contribution_margin": 2314504,
       "daily_fixed_allocated": 0,
-      "operating_profit": 2411947,
-      "pretax_income": 2411947,
-      "net_income": 2411947,
-      "net_after_fixed": 2411947,
+      "operating_profit": 2314504,
+      "pretax_income": 2314504,
+      "net_income": 2314504,
+      "net_after_fixed": 2314504,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
@@ -7573,7 +7788,7 @@
         },
         {
           "label": "광고비 - 메타/구글/네이버 (광고선전비)",
-          "amount": -2423228,
+          "amount": -2511813,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
@@ -7582,26 +7797,31 @@
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
+          "label": "광고대행 수수료 - 빌더스 (10%)",
+          "amount": -8858,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 2411947,
+          "amount": 2314504,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 2411947,
+          "amount": 2314504,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 2411947,
+          "amount": 2314504,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 2411947,
+          "amount": 2314504,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
@@ -7614,17 +7834,17 @@
     "date": "2026-09-28",
     "fetched_at": "2026-09-29T09:01:25.606288",
     "meta": {
-      "spend": 2011711.0,
-      "impressions": 97155,
-      "clicks": 4188,
-      "cpm": 20706.201430703517,
-      "ctr": 4.310637640883125,
-      "cpc": 480.3512416427889,
-      "initiate_checkout": 461.0,
-      "purchases": 62.0,
-      "purchase_value": 5842000.0,
-      "cpa": 32446.951612903227,
-      "direct_roas": 2.9039956534512164,
+      "spend": 2106115.5444617774,
+      "impressions": 99585,
+      "clicks": 4266,
+      "cpm": 21148.923477047523,
+      "ctr": 4.283777677361048,
+      "cpc": 493.69797104120426,
+      "initiate_checkout": 481.0,
+      "purchases": 64.0,
+      "purchase_value": 6018909.010405329,
+      "cpa": 32908.05538221527,
+      "direct_roas": 2.8578246935371605,
       "by_account": [
         {
           "label": "\\meta_ads_api.json",
@@ -7652,6 +7872,17 @@
           "initiate_checkout": 0,
           "purchases": 0,
           "purchase_value": 0
+        },
+        {
+          "label": "빌더스",
+          "currency": "USD",
+          "fx_rate": 1372.56,
+          "spend": 94404.5444617776,
+          "impressions": 2430,
+          "clicks": 78,
+          "initiate_checkout": 20.0,
+          "purchases": 2.0,
+          "purchase_value": 176909.01040532877
         }
       ]
     },
@@ -7930,24 +8161,30 @@
       "shipping_total": 238636,
       "pg_fee_total": 223577,
       "manual_ad_spend": {},
-      "ad_spend_total": 2118882,
+      "ad_spend_total": 2213287,
       "late_refund_total": 1460500,
-      "agency_fee_total": 10985,
+      "agency_fee_total": 20426,
       "agency_fee_detail": [
         {
           "label": "SNA_아이로아뷰티",
           "spend": 109852.0,
           "rate_pct": 10,
           "fee": 10985
+        },
+        {
+          "label": "빌더스",
+          "spend": 94404.5444617776,
+          "rate_pct": 10,
+          "fee": 9440
         }
       ],
-      "sga_total": 4052580,
-      "contribution_margin": 1364604,
+      "sga_total": 4156426,
+      "contribution_margin": 1260759,
       "daily_fixed_allocated": 0,
-      "operating_profit": 1364604,
-      "pretax_income": 1364604,
-      "net_income": 1364604,
-      "net_after_fixed": 1364604,
+      "operating_profit": 1260759,
+      "pretax_income": 1260759,
+      "net_income": 1260759,
+      "net_after_fixed": 1260759,
       "line_items": [
         {
           "label": "매출액 (순매출, VAT제외)",
@@ -7982,12 +8219,17 @@
         },
         {
           "label": "광고비 - 메타/구글/네이버 (광고선전비)",
-          "amount": -2118882,
+          "amount": -2213287,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
           "label": "광고대행 수수료 - SNA_아이로아뷰티 (10%)",
           "amount": -10985,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - 빌더스 (10%)",
+          "amount": -9440,
           "statement": "IV. 판매비와관리비 (변동)"
         },
         {
@@ -7997,25 +8239,397 @@
         },
         {
           "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
-          "amount": 1364604,
+          "amount": 1260759,
           "statement": "관리회계",
           "subtotal": true
         },
         {
           "label": "영업이익(손실)",
-          "amount": 1364604,
+          "amount": 1260759,
           "statement": "V. 영업이익(손실)",
           "subtotal": true
         },
         {
           "label": "법인세비용차감전순이익(손실)",
-          "amount": 1364604,
+          "amount": 1260759,
           "statement": "XI. 법인세비용차감전순이익(손실)",
           "subtotal": true
         },
         {
           "label": "당기순이익(손실)",
-          "amount": 1364604,
+          "amount": 1260759,
+          "statement": "XIII. 당기순이익(손실)",
+          "subtotal": true,
+          "final": true
+        }
+      ],
+      "note": "units는 결제주문건수로 근사(2개세트 주문 과소평가 가능). 지연 취소(이전 날짜 주문이 이날 취소 확정된 건)는 매출액은 그대로 두고 공헌이익에서만 차감. 반품 추가비용(회수 택배비 등)은 아직 미반영. 고정비·영업외손익·법인세는 fixed_costs.json의 월 금액을 30으로 나눈 일할 반영치."
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "fetched_at": "2026-09-30T09:01:27.756618",
+    "meta": {
+      "spend": 2192471.1869055913,
+      "impressions": 101528,
+      "clicks": 4116,
+      "cpm": 21594.74417801583,
+      "ctr": 4.054054054054054,
+      "cpc": 532.6703563910571,
+      "initiate_checkout": 474.0,
+      "purchases": 52.0,
+      "purchase_value": 4717068.41562167,
+      "cpa": 42162.90744049214,
+      "direct_roas": 2.1514847920438323,
+      "by_account": [
+        {
+          "label": "\\meta_ads_api.json",
+          "currency": "KRW",
+          "fx_rate": 1.0,
+          "spend": 2004691.0,
+          "impressions": 95996,
+          "clicks": 3968,
+          "initiate_checkout": 441.0,
+          "purchases": 44.0,
+          "purchase_value": 4019500.0
+        },
+        {
+          "label": "SNA_아이로아뷰티",
+          "currency": "KRW",
+          "fx_rate": 1.0,
+          "spend": 105962.0,
+          "impressions": 2910,
+          "clicks": 85,
+          "initiate_checkout": 18.0,
+          "purchases": 5.0,
+          "purchase_value": 432500.0
+        },
+        {
+          "label": "쇼어드랩스_에이나인글로벌_대행_광고계정",
+          "currency": "KRW",
+          "fx_rate": 1.0,
+          "spend": 0.0,
+          "impressions": 0,
+          "clicks": 0,
+          "initiate_checkout": 0,
+          "purchases": 0,
+          "purchase_value": 0
+        },
+        {
+          "label": "빌더스",
+          "currency": "USD",
+          "fx_rate": 1372.56,
+          "spend": 81818.1869055912,
+          "impressions": 2622,
+          "clicks": 63,
+          "initiate_checkout": 15.0,
+          "purchases": 3.0,
+          "purchase_value": 265068.41562167037
+        }
+      ]
+    },
+    "google_ads": {
+      "spend": 78916.0,
+      "impressions": 838,
+      "clicks": 31,
+      "ctr": 0.03699284009546539,
+      "cpc": 2545.677419354839,
+      "conversions": 0.0,
+      "conversions_value": 0.0,
+      "cpa": null,
+      "direct_roas": 0.0
+    },
+    "cafe24": {
+      "order_count": 57,
+      "total_revenue": 5064500,
+      "paid_order_count": 54,
+      "actual_paid_revenue": 4780783,
+      "point_revenue": 283717,
+      "analytics_total": 5152000
+    },
+    "coupang": {
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "smartstore": {
+      "order_count": 3,
+      "total_revenue": 356000,
+      "paid_order_count": 4
+    },
+    "cafe24_funnel": {
+      "visitors": 4949,
+      "product_views": 4773,
+      "cart_adds": 115,
+      "checkout_starts": 87,
+      "orders_completed": 57,
+      "payments_completed": 57
+    },
+    "cafe24_late_refunds": {
+      "same_day_count": 1,
+      "same_day_amount": 87500,
+      "late_count": 3,
+      "late_amount": 262500,
+      "items": [
+        {
+          "amount": 87500,
+          "order_date": "2026-09-28",
+          "refund_completed_date": "2026-09-29"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-28",
+          "refund_completed_date": "2026-09-29"
+        },
+        {
+          "amount": 87500,
+          "order_date": "2026-09-28",
+          "refund_completed_date": "2026-09-29"
+        }
+      ]
+    },
+    "naver_ads": {
+      "error": "session_expired (네이버 재로그인 필요)"
+    },
+    "posthog_site": {
+      "label": "자사몰",
+      "avg_dwell_sec": 92.9,
+      "avg_dwell_sec_baseline_7d": 85.8,
+      "rageclicks": 97
+    },
+    "posthog_blog": {
+      "label": "블로그랜딩",
+      "avg_dwell_sec": 0,
+      "avg_dwell_sec_baseline_7d": 0,
+      "rageclicks": 0
+    },
+    "blog_posts": [
+      {
+        "post": "post1",
+        "today": {
+          "views": 16,
+          "sessions": 15,
+          "avg_dwell_sec": 334.7,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 22,
+          "sessions": 20,
+          "avg_dwell_sec": 145.1,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 14.6,
+          "sessions": 14.3,
+          "avg_dwell_sec": 112.0,
+          "clicks": 0.7,
+          "click_rate_pct": 5.0
+        }
+      },
+      {
+        "post": "post2",
+        "today": {
+          "views": 11,
+          "sessions": 16,
+          "avg_dwell_sec": 53.1,
+          "clicks": 1,
+          "click_rate_pct": 6.2
+        },
+        "yesterday": {
+          "views": 15,
+          "sessions": 17,
+          "avg_dwell_sec": 222.5,
+          "clicks": 3,
+          "click_rate_pct": 17.6
+        },
+        "week_avg": {
+          "views": 11.4,
+          "sessions": 14.3,
+          "avg_dwell_sec": 124.0,
+          "clicks": 1.7,
+          "click_rate_pct": 12.0
+        }
+      },
+      {
+        "post": "post3",
+        "today": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 0.0,
+          "sessions": 0.0,
+          "avg_dwell_sec": 0,
+          "clicks": 0.0,
+          "click_rate_pct": 0.0
+        }
+      },
+      {
+        "post": "post4",
+        "today": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 0.1,
+          "sessions": 0.1,
+          "avg_dwell_sec": 64.0,
+          "clicks": 0.1,
+          "click_rate_pct": 100.0
+        }
+      },
+      {
+        "post": "post5",
+        "today": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "yesterday": {
+          "views": 0,
+          "sessions": 0,
+          "avg_dwell_sec": 0,
+          "clicks": 0,
+          "click_rate_pct": 0.0
+        },
+        "week_avg": {
+          "views": 0.0,
+          "sessions": 0.0,
+          "avg_dwell_sec": 0,
+          "clicks": 0.0,
+          "click_rate_pct": 0.0
+        }
+      }
+    ],
+    "cfo": {
+      "units_approx": 58,
+      "net_revenue": 4927727,
+      "main_cost_total": 666014,
+      "other_cost_total": 141836,
+      "cogs_total": 807850,
+      "gross_profit": 4119877,
+      "shipping_total": 184545,
+      "pg_fee_total": 163443,
+      "manual_ad_spend": {},
+      "ad_spend_total": 2271387,
+      "late_refund_total": 262500,
+      "agency_fee_total": 18778,
+      "agency_fee_detail": [
+        {
+          "label": "SNA_아이로아뷰티",
+          "spend": 105962.0,
+          "rate_pct": 10,
+          "fee": 10596
+        },
+        {
+          "label": "빌더스",
+          "spend": 81818.1869055912,
+          "rate_pct": 10,
+          "fee": 8182
+        }
+      ],
+      "sga_total": 2900654,
+      "contribution_margin": 1219223,
+      "daily_fixed_allocated": 0,
+      "operating_profit": 1219223,
+      "pretax_income": 1219223,
+      "net_income": 1219223,
+      "net_after_fixed": 1219223,
+      "line_items": [
+        {
+          "label": "매출액 (순매출, VAT제외)",
+          "amount": 4927727,
+          "statement": "I. 수익(매출액)"
+        },
+        {
+          "label": "본품 원가 (중국 직수입)",
+          "amount": -666014,
+          "statement": "II. 매출원가"
+        },
+        {
+          "label": "부자재 원가 (괄사·마사지젤)",
+          "amount": -141836,
+          "statement": "II. 매출원가"
+        },
+        {
+          "label": "매출총이익",
+          "amount": 4119877,
+          "statement": "III. 매출총이익",
+          "subtotal": true
+        },
+        {
+          "label": "택배비 (지급운임)",
+          "amount": -184545,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "PG 수수료 (지급수수료)",
+          "amount": -163443,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고비 - 메타/구글/네이버 (광고선전비)",
+          "amount": -2271387,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - SNA_아이로아뷰티 (10%)",
+          "amount": -10596,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "광고대행 수수료 - 빌더스 (10%)",
+          "amount": -8182,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "지연 환불 - 취소·반품 (3건, 이전 날짜 주문 · 매출액 미차감)",
+          "amount": -262500,
+          "statement": "IV. 판매비와관리비 (변동)"
+        },
+        {
+          "label": "공헌이익 (변동비 반영, 관리회계 참고치)",
+          "amount": 1219223,
+          "statement": "관리회계",
+          "subtotal": true
+        },
+        {
+          "label": "영업이익(손실)",
+          "amount": 1219223,
+          "statement": "V. 영업이익(손실)",
+          "subtotal": true
+        },
+        {
+          "label": "법인세비용차감전순이익(손실)",
+          "amount": 1219223,
+          "statement": "XI. 법인세비용차감전순이익(손실)",
+          "subtotal": true
+        },
+        {
+          "label": "당기순이익(손실)",
+          "amount": 1219223,
           "statement": "XIII. 당기순이익(손실)",
           "subtotal": true,
           "final": true
